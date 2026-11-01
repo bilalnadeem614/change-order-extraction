@@ -1,0 +1,24 @@
+From: Ellen Frost <ellenfrost@ironcladbuildersllc.example>
+To: Ellen Frost <ellenfrost@northgatelogisticsinc.example>
+Date: June 6, 2025, 9:18 AM
+Subject: Change order CO-019 - Westfield Data Hall Fit-Out
+
+Hi Ellen,
+
+Pricing for change order CO-019 on Westfield Data Hall Fit-Out (owner: Northgate Logistics Inc.) is below.
+Reason: Value engineering
+Scope: The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and waterproofing membrane.
+
+Items:
+- Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25
+- Waterproofing membrane: 872 SF @ $4.02 = $3,505.44
+
+Subtotal: $15,942.69
+Markup (10%): $1,594.27
+Total change: $17,536.96
+
+Status: Pending - need your sign-off to proceed.
+
+Thanks,
+Ellen Frost
+Project Manager, Ironclad Builders LLC

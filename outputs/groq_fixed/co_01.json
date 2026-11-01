@@ -1,0 +1,226 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_01_clean_form.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-016",
+      "confidence": 1.0,
+      "evidence": "Change Order CO-016",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-11-04",
+      "confidence": 1.0,
+      "evidence": "Date: November 4, 2025",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Maple Ridge Elementary Gym Addition",
+      "confidence": 1.0,
+      "evidence": "Project: Maple Ridge Elementary Gym Addition",
+      "flags": []
+    },
+    "owner": {
+      "value": "Pinecrest Development Corp.",
+      "confidence": 1.0,
+      "evidence": "Owner: Pinecrest Development Corp.",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Atlas Electric & Controls",
+      "confidence": 1.0,
+      "evidence": "Contractor: Atlas Electric & Controls",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "description": {
+      "value": "The inspector required changes for code compliance. Work covers supervision labor and upgrade light fixtures to LED.",
+      "confidence": 1.0,
+      "evidence": "Reason for Code compliance requirement\nChange:\nDescription of Change\nThe inspector required changes for code compliance. Work covers supervision labor and upgrade light fixtures to LED.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 26256.38,
+      "confidence": 1.0,
+      "evidence": "Subtotal $26,256.38",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 2625.64,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%) $2,625.64",
+      "flags": []
+    },
+    "total": {
+      "value": 28882.02,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER $28,882.02",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 14,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 14 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 2546500.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: $2,546,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 2575382.02,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: $2,575,382.02",
+      "flags": []
+    },
+    "status": {
+      "value": "Executed",
+      "confidence": 1.0,
+      "evidence": "Status: Executed",
+      "flags": []
+    },
+    "signed": {
+      "value": true,
+      "confidence": 1.0,
+      "evidence": "signature: /s/ Tom Bellamy",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Supervision labor",
+        "confidence": 1.0,
+        "evidence": "1 | Supervision labor | 52 | HR | $57.68 | $2,999.36",
+        "flags": []
+      },
+      "quantity": {
+        "value": 52.0,
+        "confidence": 1.0,
+        "evidence": "1 | Supervision labor | 52 | HR | $57.68 | $2,999.36",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "1 | Supervision labor | 52 | HR | $57.68 | $2,999.36",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 57.68,
+        "confidence": 1.0,
+        "evidence": "1 | Supervision labor | 52 | HR | $57.68 | $2,999.36",
+        "flags": []
+      },
+      "amount": {
+        "value": 2999.36,
+        "confidence": 1.0,
+        "evidence": "1 | Supervision labor | 52 | HR | $57.68 | $2,999.36",
+        "flags": []
+      },
+      "evidence": "1 | Supervision labor | 52 | HR | $57.68 | $2,999.36",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $219.93 | $15,615.03",
+        "flags": []
+      },
+      "quantity": {
+        "value": 71.0,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $219.93 | $15,615.03",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $219.93 | $15,615.03",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 219.93,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $219.93 | $15,615.03",
+        "flags": []
+      },
+      "amount": {
+        "value": 15615.03,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $219.93 | $15,615.03",
+        "flags": []
+      },
+      "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $219.93 | $15,615.03",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Crane rental",
+        "confidence": 1.0,
+        "evidence": "3 | Crane rental | 3 | DAY | $2,547.33 | $7,641.99",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3.0,
+        "confidence": 1.0,
+        "evidence": "3 | Crane rental | 3 | DAY | $2,547.33 | $7,641.99",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "3 | Crane rental | 3 | DAY | $2,547.33 | $7,641.99",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2547.33,
+        "confidence": 1.0,
+        "evidence": "3 | Crane rental | 3 | DAY | $2,547.33 | $7,641.99",
+        "flags": []
+      },
+      "amount": {
+        "value": 7641.99,
+        "confidence": 1.0,
+        "evidence": "3 | Crane rental | 3 | DAY | $2,547.33 | $7,641.99",
+        "flags": []
+      },
+      "evidence": "3 | Crane rental | 3 | DAY | $2,547.33 | $7,641.99",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "reason (0.425): possible_missed_field"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

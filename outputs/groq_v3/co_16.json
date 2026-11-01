@@ -1,0 +1,335 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_16_scan_credit.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-006",
+      "confidence": 0.896,
+      "evidence": "cane Order CO-006",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-04-26",
+      "confidence": 0.28,
+      "evidence": "Dates April 26, 2026",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "project_name": {
+      "value": "Oakwood Senior Living Wing B",
+      "confidence": 0.849,
+      "evidence": "Project: ‘e Oakwood Senior Living Wing B",
+      "flags": []
+    },
+    "owner": {
+      "value": "Westfield a Partners",
+      "confidence": 0.353,
+      "evidence": "Owner: Westfield a Partners",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "contractor": {
+      "value": "Ironclad Builders LLC",
+      "confidence": 0.675,
+      "evidence": "Contractor: Ironclad Builders LLC",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "reason": {
+      "value": "Unforeseen site condition",
+      "confidence": 0.218,
+      "evidence": "Reason for _ Unforeséen site condition -",
+      "flags": [
+        "value_not_in_evidence"
+      ]
+    },
+    "description": {
+      "value": "Conditions found on-site differ from the contract documents. Work covers crane rental and frame additional interior exmees Credits are psnapet for omitted work.",
+      "confidence": 0.384,
+      "evidence": "Conditions found on-site differ from the contract documents. Work covers crane rental and frame additional interior exmees Credits are psnapet for omitted work.",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "subtotal": {
+      "value": 6005.2,
+      "confidence": 0.075,
+      "evidence": "Subtotal — $6, 005.20",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 0.131,
+      "evidence": "Overhead & Profit (1 0%)",
+      "flags": [
+        "value_not_in_evidence",
+        "passes_disagree"
+      ]
+    },
+    "markup_amount": {
+      "value": 600.52,
+      "confidence": 0.133,
+      "evidence": "Overhead & Profit (1 0%) $600.52",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "total": {
+      "value": 6605.72,
+      "confidence": 0.376,
+      "evidence": "TOTAL THIS CHANGE ORDER - $6,605.72",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.168,
+      "evidence": null,
+      "flags": [
+        "evidence_missing",
+        "passes_disagree"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 0,
+      "confidence": 0.536,
+      "evidence": "0 calendar days",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "original_contract_sum": {
+      "value": 5882000.0,
+      "confidence": 0.928,
+      "evidence": "$5,882,000.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 5888605.72,
+      "confidence": 0.071,
+      "evidence": "$5,888,605:72",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "status": {
+      "value": "Pending",
+      "confidence": 0.65,
+      "evidence": "Status: |",
+      "flags": [
+        "value_spans_lines"
+      ]
+    },
+    "signed": {
+      "value": false,
+      "confidence": 0.299,
+      "evidence": "Owner _ signature:",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Crane rental",
+        "confidence": 0.338,
+        "evidence": "4° DAY $1,637.66 $6, 550. 64.",
+        "flags": [
+          "value_spans_lines",
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.286,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 0.376,
+        "evidence": "4° DAY $1,637.66 $6, 550. 64.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit_price": {
+        "value": 1637.66,
+        "confidence": 0.376,
+        "evidence": "4° DAY $1,637.66 $6, 550. 64.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 6550.64,
+        "confidence": 0.113,
+        "evidence": "4° DAY $1,637.66 $6, 550. 64.",
+        "flags": [
+          "value_not_in_evidence",
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "4° DAY $1,637.66 $6, 550. 64.",
+      "confidence": 0.113
+    },
+    {
+      "description": {
+        "value": "Frame additional interior partition",
+        "confidence": 0.178,
+        "evidence": "35° LF $46.48 $1, 626 80,",
+        "flags": [
+          "value_spans_lines",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": 35.0,
+        "confidence": 0.198,
+        "evidence": "35° LF $46.48 $1, 626 80,",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 0.198,
+        "evidence": "35° LF $46.48 $1, 626 80,",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": 46.48,
+        "confidence": 0.198,
+        "evidence": "35° LF $46.48 $1, 626 80,",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 1626.8,
+        "confidence": 0.059,
+        "evidence": "35° LF $46.48 $1, 626 80,",
+        "flags": [
+          "value_not_in_evidence",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "35° LF $46.48 $1, 626 80,",
+      "confidence": 0.059
+    },
+    {
+      "description": {
+        "value": "Credit: omit decorative wall: trim",
+        "confidence": 0.24,
+        "evidence": "126 LF - $17.24.) ($2,172. 24)",
+        "flags": [
+          "value_spans_lines",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": 126.0,
+        "confidence": 0.266,
+        "evidence": "126 LF - $17.24.) ($2,172. 24)",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 0.266,
+        "evidence": "126 LF - $17.24.) ($2,172. 24)",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": 17.24,
+        "confidence": 0.266,
+        "evidence": "126 LF - $17.24.) ($2,172. 24)",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": -2172.24,
+        "confidence": 0.08,
+        "evidence": "126 LF - $17.24.) ($2,172. 24)",
+        "flags": [
+          "value_not_in_evidence",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "126 LF - $17.24.) ($2,172. 24)",
+      "confidence": 0.08
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "co_date (0.28): low_ocr_confidence",
+    "owner (0.353): passes_disagree",
+    "contractor (0.675): low_ocr_confidence",
+    "reason (0.218): value_not_in_evidence",
+    "description (0.384): passes_disagree",
+    "subtotal (0.075): value_not_in_evidence, low_ocr_confidence, passes_disagree",
+    "markup_percent (0.131): value_not_in_evidence, passes_disagree",
+    "markup_amount (0.133): low_ocr_confidence, passes_disagree",
+    "total (0.376): low_ocr_confidence",
+    "currency (0.168): evidence_missing, passes_disagree",
+    "schedule_impact_days (0.536): low_ocr_confidence",
+    "new_contract_sum (0.071): value_not_in_evidence, low_ocr_confidence, passes_disagree",
+    "status (0.65): value_spans_lines",
+    "signed (0.299): low_ocr_confidence, passes_disagree",
+    "line_items[0] (0.113): description, quantity, unit, unit_price, amount",
+    "line_items[1] (0.059): description, quantity, unit, unit_price, amount",
+    "line_items[2] (0.08): description, quantity, unit, unit_price, amount"
+  ],
+  "ingest": {
+    "used_ocr": true,
+    "mean_ocr_conf": 68.54088050314465,
+    "warnings": [
+      "OCR used on page(s) [1]"
+    ]
+  },
+  "notes": []
+}

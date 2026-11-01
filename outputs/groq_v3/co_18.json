@@ -1,0 +1,296 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_18_wrong_total.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "041",
+      "confidence": 1.0,
+      "evidence": "CO #: 041",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-05-05",
+      "confidence": 1.0,
+      "evidence": "Date Issued: May 5, 2026",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Summit Peak Brewery Buildout",
+      "confidence": 1.0,
+      "evidence": "Project Name: Summit Peak Brewery Buildout",
+      "flags": []
+    },
+    "owner": {
+      "value": "Maple Ridge School District",
+      "confidence": 1.0,
+      "evidence": "Owner / Client: Maple Ridge School District",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Redwood General Contractors",
+      "confidence": 1.0,
+      "evidence": "Contractor: Redwood General Contractors",
+      "flags": []
+    },
+    "reason": {
+      "value": "Owner-requested scope change",
+      "confidence": 1.0,
+      "evidence": "Reason: Owner-requested scope change",
+      "flags": []
+    },
+    "description": {
+      "value": "At the owner's request, additional scope was added. Work covers replace supply duct section and frame additional interior partition.",
+      "confidence": 1.0,
+      "evidence": "Description of Change\nAt the owner's request, additional scope was added. Work covers replace supply duct section and frame additional interior partition.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 14171.28,
+      "confidence": 0.55,
+      "evidence": "Subtotal $14,171.28",
+      "flags": [
+        "total_mismatch"
+      ]
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1417.13,
+      "confidence": 0.55,
+      "evidence": "Overhead & Profit (10%) $1,417.13",
+      "flags": [
+        "total_mismatch"
+      ]
+    },
+    "total": {
+      "value": 15488.41,
+      "confidence": 0.303,
+      "evidence": "Net Change $15,488.41",
+      "flags": [
+        "total_mismatch",
+        "contract_sum_mismatch"
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 7,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 7 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 3002000.0,
+      "confidence": 0.55,
+      "evidence": "Contract Sum Prior to This CO: $3,002,000.00",
+      "flags": [
+        "contract_sum_mismatch"
+      ]
+    },
+    "new_contract_sum": {
+      "value": 3017588.41,
+      "confidence": 0.55,
+      "evidence": "Contract Sum Including This CO: $3,017,588.41",
+      "flags": [
+        "contract_sum_mismatch"
+      ]
+    },
+    "status": {
+      "value": "Approved",
+      "confidence": 1.0,
+      "evidence": "Status: Approved",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "Owner Contractor\nsignature: ______________________ signature: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Replace supply duct section",
+        "confidence": 1.0,
+        "evidence": "1 | Replace supply duct section | 110 | LF | $55.36 | $6,089.60",
+        "flags": []
+      },
+      "quantity": {
+        "value": 110.0,
+        "confidence": 1.0,
+        "evidence": "1 | Replace supply duct section | 110 | LF | $55.36 | $6,089.60",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "1 | Replace supply duct section | 110 | LF | $55.36 | $6,089.60",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 55.36,
+        "confidence": 1.0,
+        "evidence": "1 | Replace supply duct section | 110 | LF | $55.36 | $6,089.60",
+        "flags": []
+      },
+      "amount": {
+        "value": 6089.6,
+        "confidence": 1.0,
+        "evidence": "1 | Replace supply duct section | 110 | LF | $55.36 | $6,089.60",
+        "flags": []
+      },
+      "evidence": "1 | Replace supply duct section | 110 | LF | $55.36 | $6,089.60",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Frame additional interior partition",
+        "confidence": 1.0,
+        "evidence": "2 | Frame additional interior partition | 64 | LF | $37.72 | $2,414.08",
+        "flags": []
+      },
+      "quantity": {
+        "value": 64.0,
+        "confidence": 1.0,
+        "evidence": "2 | Frame additional interior partition | 64 | LF | $37.72 | $2,414.08",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "2 | Frame additional interior partition | 64 | LF | $37.72 | $2,414.08",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 37.72,
+        "confidence": 1.0,
+        "evidence": "2 | Frame additional interior partition | 64 | LF | $37.72 | $2,414.08",
+        "flags": []
+      },
+      "amount": {
+        "value": 2414.08,
+        "confidence": 1.0,
+        "evidence": "2 | Frame additional interior partition | 64 | LF | $37.72 | $2,414.08",
+        "flags": []
+      },
+      "evidence": "2 | Frame additional interior partition | 64 | LF | $37.72 | $2,414.08",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Supervision labor",
+        "confidence": 1.0,
+        "evidence": "3 | Supervision labor | 48 | HR | $86.52 | $4,152.96",
+        "flags": []
+      },
+      "quantity": {
+        "value": 48.0,
+        "confidence": 1.0,
+        "evidence": "3 | Supervision labor | 48 | HR | $86.52 | $4,152.96",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "3 | Supervision labor | 48 | HR | $86.52 | $4,152.96",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 86.52,
+        "confidence": 1.0,
+        "evidence": "3 | Supervision labor | 48 | HR | $86.52 | $4,152.96",
+        "flags": []
+      },
+      "amount": {
+        "value": 4152.96,
+        "confidence": 1.0,
+        "evidence": "3 | Supervision labor | 48 | HR | $86.52 | $4,152.96",
+        "flags": []
+      },
+      "evidence": "3 | Supervision labor | 48 | HR | $86.52 | $4,152.96",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits",
+        "confidence": 1.0,
+        "evidence": "4 | Relocate 20A electrical circuits | 4 | EA | $378.66 | $1,514.64",
+        "flags": []
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 1.0,
+        "evidence": "4 | Relocate 20A electrical circuits | 4 | EA | $378.66 | $1,514.64",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "4 | Relocate 20A electrical circuits | 4 | EA | $378.66 | $1,514.64",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 378.66,
+        "confidence": 1.0,
+        "evidence": "4 | Relocate 20A electrical circuits | 4 | EA | $378.66 | $1,514.64",
+        "flags": []
+      },
+      "amount": {
+        "value": 1514.64,
+        "confidence": 1.0,
+        "evidence": "4 | Relocate 20A electrical circuits | 4 | EA | $378.66 | $1,514.64",
+        "flags": []
+      },
+      "evidence": "4 | Relocate 20A electrical circuits | 4 | EA | $378.66 | $1,514.64",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [
+    {
+      "code": "total_mismatch",
+      "severity": "error",
+      "fields": [
+        "subtotal",
+        "markup_amount",
+        "total"
+      ],
+      "message": "subtotal 14171.28 + markup 1417.13 = 15588.41, but total is 15488.41"
+    },
+    {
+      "code": "contract_sum_mismatch",
+      "severity": "error",
+      "fields": [
+        "original_contract_sum",
+        "total",
+        "new_contract_sum"
+      ],
+      "message": "original 3002000.0 + total 15488.41 != new 3017588.41"
+    }
+  ],
+  "needs_review": true,
+  "review_reasons": [
+    "subtotal (0.55): total_mismatch",
+    "markup_amount (0.55): total_mismatch",
+    "total (0.303): total_mismatch, contract_sum_mismatch",
+    "original_contract_sum (0.55): contract_sum_mismatch",
+    "new_contract_sum (0.55): contract_sum_mismatch",
+    "validation: subtotal 14171.28 + markup 1417.13 = 15588.41, but total is 15488.41",
+    "validation: original 3002000.0 + total 15488.41 != new 3017588.41"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

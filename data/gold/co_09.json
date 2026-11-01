@@ -1,0 +1,217 @@
+{
+  "co_number": "013",
+  "co_date": "2025-04-24",
+  "project_name": "Riverside Library Renovation",
+  "owner": "Oakwood Care Group",
+  "contractor": "Keystone Mechanical Co.",
+  "reason": "Code compliance requirement",
+  "description": "The inspector required changes for code compliance. Work covers sprinkler head relocation and upgrade light fixtures to LED.",
+  "line_items": [
+    {
+      "description": "Sprinkler head relocation - Level 5, Zone D",
+      "quantity": 36.0,
+      "unit": "EA",
+      "unit_price": 199.04,
+      "amount": 7165.44
+    },
+    {
+      "description": "Upgrade light fixtures to LED - Level 2, Zone C",
+      "quantity": 61.0,
+      "unit": "EA",
+      "unit_price": 298.01,
+      "amount": 18178.61
+    },
+    {
+      "description": "Additional 4\" concrete slab pour - Level 5, Zone D",
+      "quantity": 708.0,
+      "unit": "SF",
+      "unit_price": 9.21,
+      "amount": 6520.68
+    },
+    {
+      "description": "Fire-rated door and hardware - Level 5, Zone D",
+      "quantity": 6.0,
+      "unit": "EA",
+      "unit_price": 1425.81,
+      "amount": 8554.86
+    },
+    {
+      "description": "Relocate 20A electrical circuits - Level 2, Zone C",
+      "quantity": 18.0,
+      "unit": "EA",
+      "unit_price": 269.57,
+      "amount": 4852.26
+    },
+    {
+      "description": "Excavation for unforeseen rock - Level 6, Zone A",
+      "quantity": 72.0,
+      "unit": "CY",
+      "unit_price": 73.92,
+      "amount": 5322.24
+    },
+    {
+      "description": "Interior paint, two coats - Level 4, Zone C",
+      "quantity": 1123.0,
+      "unit": "SF",
+      "unit_price": 1.3,
+      "amount": 1459.9
+    },
+    {
+      "description": "Supervision labor - Level 1, Zone B",
+      "quantity": 53.0,
+      "unit": "HR",
+      "unit_price": 85.59,
+      "amount": 4536.27
+    },
+    {
+      "description": "Frame additional interior partition - Level 2, Zone B",
+      "quantity": 36.0,
+      "unit": "LF",
+      "unit_price": 37.5,
+      "amount": 1350.0
+    },
+    {
+      "description": "Replace supply duct section - Level 4, Zone A",
+      "quantity": 23.0,
+      "unit": "LF",
+      "unit_price": 87.99,
+      "amount": 2023.77
+    },
+    {
+      "description": "Drywall patch and finish - Level 1, Zone D",
+      "quantity": 874.0,
+      "unit": "SF",
+      "unit_price": 3.06,
+      "amount": 2674.44
+    },
+    {
+      "description": "Rebar, #5 grade 60 - Level 3, Zone C",
+      "quantity": 3529.0,
+      "unit": "LB",
+      "unit_price": 1.11,
+      "amount": 3917.19
+    },
+    {
+      "description": "Crane rental - Level 2, Zone B",
+      "quantity": 2.0,
+      "unit": "DAY",
+      "unit_price": 1629.2,
+      "amount": 3258.4
+    },
+    {
+      "description": "Waterproofing membrane - Level 6, Zone D",
+      "quantity": 796.0,
+      "unit": "SF",
+      "unit_price": 8.57,
+      "amount": 6821.72
+    },
+    {
+      "description": "Sprinkler head relocation - Level 1, Zone A",
+      "quantity": 5.0,
+      "unit": "EA",
+      "unit_price": 105.86,
+      "amount": 529.3
+    },
+    {
+      "description": "Upgrade light fixtures to LED - Level 6, Zone D",
+      "quantity": 42.0,
+      "unit": "EA",
+      "unit_price": 227.24,
+      "amount": 9544.08
+    },
+    {
+      "description": "Additional 4\" concrete slab pour - Level 2, Zone A",
+      "quantity": 922.0,
+      "unit": "SF",
+      "unit_price": 8.98,
+      "amount": 8279.56
+    },
+    {
+      "description": "Fire-rated door and hardware - Level 1, Zone A",
+      "quantity": 3.0,
+      "unit": "EA",
+      "unit_price": 2252.3,
+      "amount": 6756.9
+    },
+    {
+      "description": "Relocate 20A electrical circuits - Level 2, Zone B",
+      "quantity": 3.0,
+      "unit": "EA",
+      "unit_price": 284.13,
+      "amount": 852.39
+    },
+    {
+      "description": "Excavation for unforeseen rock - Level 3, Zone C",
+      "quantity": 49.0,
+      "unit": "CY",
+      "unit_price": 138.38,
+      "amount": 6780.62
+    },
+    {
+      "description": "Interior paint, two coats - Level 6, Zone C",
+      "quantity": 2700.0,
+      "unit": "SF",
+      "unit_price": 1.29,
+      "amount": 3483.0
+    },
+    {
+      "description": "Supervision labor - Level 5, Zone A",
+      "quantity": 56.0,
+      "unit": "HR",
+      "unit_price": 70.38,
+      "amount": 3941.28
+    },
+    {
+      "description": "Frame additional interior partition - Level 6, Zone A",
+      "quantity": 108.0,
+      "unit": "LF",
+      "unit_price": 26.17,
+      "amount": 2826.36
+    },
+    {
+      "description": "Replace supply duct section - Level 3, Zone A",
+      "quantity": 35.0,
+      "unit": "LF",
+      "unit_price": 72.73,
+      "amount": 2545.55
+    },
+    {
+      "description": "Drywall patch and finish - Level 5, Zone C",
+      "quantity": 105.0,
+      "unit": "SF",
+      "unit_price": 5.69,
+      "amount": 597.45
+    },
+    {
+      "description": "Rebar, #5 grade 60 - Level 3, Zone D",
+      "quantity": 1180.0,
+      "unit": "LB",
+      "unit_price": 1.52,
+      "amount": 1793.6
+    },
+    {
+      "description": "Crane rental - Level 1, Zone B",
+      "quantity": 2.0,
+      "unit": "DAY",
+      "unit_price": 1974.12,
+      "amount": 3948.24
+    },
+    {
+      "description": "Waterproofing membrane - Level 4, Zone B",
+      "quantity": 468.0,
+      "unit": "SF",
+      "unit_price": 5.67,
+      "amount": 2653.56
+    }
+  ],
+  "subtotal": 131167.67,
+  "markup_percent": null,
+  "markup_amount": null,
+  "total": 131167.67,
+  "currency": "USD",
+  "schedule_impact_days": 0,
+  "original_contract_sum": 4743000.0,
+  "new_contract_sum": 4874167.67,
+  "status": "Executed",
+  "signed": true
+}

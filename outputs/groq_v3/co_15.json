@@ -1,0 +1,365 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_15_scan_poor.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": null,
+      "confidence": 0.138,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "null_on_ocr_text",
+        "required_missing"
+      ]
+    },
+    "co_date": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "project_name": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "owner": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "contractor": {
+      "value": "Beghting Construction",
+      "confidence": 0.196,
+      "evidence": "Beghting Construction to. conidentig’",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "description": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "subtotal": {
+      "value": 25511.88,
+      "confidence": 0.232,
+      "evidence": "Subtotai : tats $25,511.88",
+      "flags": [
+        "passes_disagree",
+        "items_sum_mismatch"
+      ]
+    },
+    "markup_percent": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "markup_amount": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "total": {
+      "value": null,
+      "confidence": 0.275,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text",
+        "required_missing"
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.243,
+      "evidence": "$",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 7,
+      "confidence": 0.166,
+      "evidence": "Change in Contract Time: 7 calendar days",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "original_contract_sum": {
+      "value": 8107800.0,
+      "confidence": 0.09,
+      "evidence": "Original Contract Sum: —..'$8,107,800.00.",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "new_contract_sum": {
+      "value": null,
+      "confidence": 0.229,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "null_on_ocr_text"
+      ]
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    },
+    "signed": {
+      "value": null,
+      "confidence": 0.459,
+      "evidence": null,
+      "flags": [
+        "null_on_ocr_text"
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Supervision labor PES ReION Saree i",
+        "confidence": 0.274,
+        "evidence": "Supervision labor PES ReION Saree i $7095 $1,618.05.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "amount": {
+        "value": 1618.05,
+        "confidence": 0.15,
+        "evidence": "Supervision labor PES ReION Saree i $7095 $1,618.05.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "items_sum_mismatch"
+        ]
+      },
+      "evidence": "Supervision labor PES ReION Saree i $7095 $1,618.05.",
+      "confidence": 0.15
+    },
+    {
+      "description": {
+        "value": "Additional 4° concrete slab pour PROS Byers",
+        "confidence": 0.137,
+        "evidence": "Additional 4° concrete slab pour PROS Byers $740) $380030.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "amount": {
+        "value": 380030.0,
+        "confidence": 0.075,
+        "evidence": "Additional 4° concrete slab pour PROS Byers $740) $380030.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "items_sum_mismatch"
+        ]
+      },
+      "evidence": "Additional 4° concrete slab pour PROS Byers $740) $380030.",
+      "confidence": 0.075
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation Hae",
+        "confidence": 0.09,
+        "evidence": "Sprinkler head relocation Hae $18209 0 $6,919.42",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.206,
+        "evidence": null,
+        "flags": [
+          "null_on_ocr_text",
+          "passes_disagree"
+        ]
+      },
+      "amount": {
+        "value": 6919.42,
+        "confidence": 0.11,
+        "evidence": "Sprinkler head relocation Hae $18209 0 $6,919.42",
+        "flags": [
+          "low_ocr_confidence",
+          "items_sum_mismatch"
+        ]
+      },
+      "evidence": "Sprinkler head relocation Hae $18209 0 $6,919.42",
+      "confidence": 0.09
+    }
+  ],
+  "issues": [
+    {
+      "code": "items_sum_mismatch",
+      "severity": "error",
+      "fields": [
+        "subtotal",
+        "line_items[0]",
+        "line_items[1]",
+        "line_items[2]"
+      ],
+      "message": "line items sum to 388567.47 but subtotal is 25511.88"
+    },
+    {
+      "code": "required_missing",
+      "severity": "warn",
+      "fields": [
+        "co_number"
+      ],
+      "message": "co_number is missing"
+    },
+    {
+      "code": "required_missing",
+      "severity": "warn",
+      "fields": [
+        "total"
+      ],
+      "message": "total is missing"
+    }
+  ],
+  "needs_review": true,
+  "review_reasons": [
+    "co_number (0.138): possible_missed_field, null_on_ocr_text, required_missing",
+    "co_date (0.459): null_on_ocr_text",
+    "project_name (0.459): null_on_ocr_text",
+    "owner (0.459): null_on_ocr_text",
+    "contractor (0.196): low_ocr_confidence, passes_disagree",
+    "reason (0.459): null_on_ocr_text",
+    "description (0.459): null_on_ocr_text",
+    "subtotal (0.232): passes_disagree, items_sum_mismatch",
+    "markup_percent (0.459): null_on_ocr_text",
+    "markup_amount (0.459): null_on_ocr_text",
+    "total (0.275): null_on_ocr_text, required_missing",
+    "currency (0.243): low_ocr_confidence, passes_disagree",
+    "schedule_impact_days (0.166): low_ocr_confidence, passes_disagree",
+    "original_contract_sum (0.09): low_ocr_confidence, passes_disagree",
+    "new_contract_sum (0.229): possible_missed_field, null_on_ocr_text",
+    "status (0.459): null_on_ocr_text",
+    "signed (0.459): null_on_ocr_text",
+    "line_items[0] (0.15): description, quantity, unit, unit_price, amount",
+    "line_items[1] (0.075): description, quantity, unit, unit_price, amount",
+    "line_items[2] (0.09): description, quantity, unit, unit_price, amount",
+    "validation: line items sum to 388567.47 but subtotal is 25511.88"
+  ],
+  "ingest": {
+    "used_ocr": true,
+    "mean_ocr_conf": 42.45054945054945,
+    "warnings": [
+      "OCR used on page(s) [1]",
+      "low OCR confidence (42/100)"
+    ]
+  },
+  "notes": []
+}

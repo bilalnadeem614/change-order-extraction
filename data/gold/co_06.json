@@ -1,0 +1,49 @@
+{
+  "co_number": "038",
+  "co_date": "2026-09-03",
+  "project_name": "Maple Ridge Elementary Gym Addition",
+  "owner": "Cedar Point Holdings LLC",
+  "contractor": "Atlas Electric & Controls",
+  "reason": "Owner-requested scope change",
+  "description": "At the owner's request, additional scope was added. Work covers frame additional interior partition and waterproofing membrane.",
+  "line_items": [
+    {
+      "description": "Frame additional interior partition",
+      "quantity": 66.0,
+      "unit": "LF",
+      "unit_price": 24.66,
+      "amount": 1627.56
+    },
+    {
+      "description": "Waterproofing membrane",
+      "quantity": 1047.0,
+      "unit": "SF",
+      "unit_price": 4.91,
+      "amount": 5140.77
+    },
+    {
+      "description": "Rebar, #5 grade 60",
+      "quantity": 3422.0,
+      "unit": "LB",
+      "unit_price": 1.14,
+      "amount": 3901.08
+    },
+    {
+      "description": "Upgrade light fixtures to LED",
+      "quantity": 47.0,
+      "unit": "EA",
+      "unit_price": 270.56,
+      "amount": 12716.32
+    }
+  ],
+  "subtotal": 23385.73,
+  "markup_percent": 10.0,
+  "markup_amount": 2338.57,
+  "total": 25724.3,
+  "currency": "USD",
+  "schedule_impact_days": 10,
+  "original_contract_sum": 4298500.0,
+  "new_contract_sum": 4324224.3,
+  "status": "Approved",
+  "signed": false
+}

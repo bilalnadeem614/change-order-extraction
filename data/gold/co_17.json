@@ -1,0 +1,49 @@
+{
+  "co_number": "PCO-07",
+  "co_date": "2025-07-16",
+  "project_name": "Lakeshore Fire Station No. 7",
+  "owner": "Lakeshore Township",
+  "contractor": "Ironclad Builders LLC",
+  "reason": "Owner-requested scope change",
+  "description": "At the owner's request, additional scope was added. Work covers supervision labor and crane rental.",
+  "line_items": [
+    {
+      "description": "Supervision labor",
+      "quantity": 20.0,
+      "unit": "HR",
+      "unit_price": 78.13,
+      "amount": 1562.6
+    },
+    {
+      "description": "Crane rental",
+      "quantity": 2.0,
+      "unit": "DAY",
+      "unit_price": 2379.56,
+      "amount": 4759.12
+    },
+    {
+      "description": "Sprinkler head relocation",
+      "quantity": 18.0,
+      "unit": "EA",
+      "unit_price": 128.64,
+      "amount": 2315.52
+    },
+    {
+      "description": "Rebar, #5 grade 60",
+      "quantity": 1945.0,
+      "unit": "LB",
+      "unit_price": 1.49,
+      "amount": 2898.05
+    }
+  ],
+  "subtotal": 11535.29,
+  "markup_percent": 10.0,
+  "markup_amount": 1153.53,
+  "total": 12688.82,
+  "currency": "EUR",
+  "schedule_impact_days": 14,
+  "original_contract_sum": 2179500.0,
+  "new_contract_sum": 2192188.82,
+  "status": "Pending",
+  "signed": false
+}

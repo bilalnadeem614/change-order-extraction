@@ -1,0 +1,227 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_04_deductive.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "028",
+      "confidence": 1.0,
+      "evidence": "Change Order 028",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-07-24",
+      "confidence": 1.0,
+      "evidence": "Date: 24-Jul-2026",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Summit Peak Brewery Buildout",
+      "confidence": 1.0,
+      "evidence": "Project: Summit Peak Brewery Buildout",
+      "flags": []
+    },
+    "owner": {
+      "value": "Harborview Health Partners",
+      "confidence": 1.0,
+      "evidence": "Owner: Harborview Health Partners",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Ironclad Builders LLC",
+      "confidence": 1.0,
+      "evidence": "Contractor: Ironclad Builders LLC",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.191,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "passes_disagree"
+      ]
+    },
+    "description": {
+      "value": "The inspector required changes for code compliance. Work covers credit: omit decorative wall trim and credit: eliminate planned landscaping. Credits are applied for omitted work.",
+      "confidence": 1.0,
+      "evidence": "The inspector required changes for code compliance. Work covers credit: omit decorative wall trim and credit: eliminate planned landscaping. Credits are applied for omitted work.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": -9081.02,
+      "confidence": 1.0,
+      "evidence": "Subtotal ($9,081.02)",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "markup_amount": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "total": {
+      "value": -9081.02,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER ($9,081.02)",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 0 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5686000.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: $5,686,000.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 5676918.98,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: $5,676,918.98",
+      "flags": []
+    },
+    "status": {
+      "value": "Approved",
+      "confidence": 1.0,
+      "evidence": "Status: Approved",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "signature: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Credit: omit decorative wall trim",
+        "confidence": 1.0,
+        "evidence": "1 Credit: omit decorative wall trim 114 LF $12.79 ($1,458.06)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 114.0,
+        "confidence": 1.0,
+        "evidence": "1 Credit: omit decorative wall trim 114 LF $12.79 ($1,458.06)",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "1 Credit: omit decorative wall trim 114 LF $12.79 ($1,458.06)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 12.79,
+        "confidence": 1.0,
+        "evidence": "1 Credit: omit decorative wall trim 114 LF $12.79 ($1,458.06)",
+        "flags": []
+      },
+      "amount": {
+        "value": -1458.06,
+        "confidence": 1.0,
+        "evidence": "1 Credit: omit decorative wall trim 114 LF $12.79 ($1,458.06)",
+        "flags": []
+      },
+      "evidence": "1 Credit: omit decorative wall trim 114 LF $12.79 ($1,458.06)",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: eliminate planned landscaping",
+        "confidence": 1.0,
+        "evidence": "2 Credit: eliminate planned landscaping 1 LS $4,230.56 ($4,230.56)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 1.0,
+        "evidence": "2 Credit: eliminate planned landscaping 1 LS $4,230.56 ($4,230.56)",
+        "flags": []
+      },
+      "unit": {
+        "value": "LS",
+        "confidence": 1.0,
+        "evidence": "2 Credit: eliminate planned landscaping 1 LS $4,230.56 ($4,230.56)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 4230.56,
+        "confidence": 1.0,
+        "evidence": "2 Credit: eliminate planned landscaping 1 LS $4,230.56 ($4,230.56)",
+        "flags": []
+      },
+      "amount": {
+        "value": -4230.56,
+        "confidence": 1.0,
+        "evidence": "2 Credit: eliminate planned landscaping 1 LS $4,230.56 ($4,230.56)",
+        "flags": []
+      },
+      "evidence": "2 Credit: eliminate planned landscaping 1 LS $4,230.56 ($4,230.56)",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: substitute vinyl for tile flooring",
+        "confidence": 1.0,
+        "evidence": "3 Credit: substitute vinyl for tile flooring 1,028 SF $3.30 ($3,392.40)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1028.0,
+        "confidence": 1.0,
+        "evidence": "3 Credit: substitute vinyl for tile flooring 1,028 SF $3.30 ($3,392.40)",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "3 Credit: substitute vinyl for tile flooring 1,028 SF $3.30 ($3,392.40)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 3.3,
+        "confidence": 1.0,
+        "evidence": "3 Credit: substitute vinyl for tile flooring 1,028 SF $3.30 ($3,392.40)",
+        "flags": []
+      },
+      "amount": {
+        "value": -3392.4,
+        "confidence": 1.0,
+        "evidence": "3 Credit: substitute vinyl for tile flooring 1,028 SF $3.30 ($3,392.40)",
+        "flags": []
+      },
+      "evidence": "3 Credit: substitute vinyl for tile flooring 1,028 SF $3.30 ($3,392.40)",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "reason (0.191): possible_missed_field, passes_disagree"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

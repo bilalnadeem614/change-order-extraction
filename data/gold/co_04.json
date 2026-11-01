@@ -1,0 +1,42 @@
+{
+  "co_number": "028",
+  "co_date": "2026-07-24",
+  "project_name": "Summit Peak Brewery Buildout",
+  "owner": "Harborview Health Partners",
+  "contractor": "Ironclad Builders LLC",
+  "reason": "Code compliance requirement",
+  "description": "The inspector required changes for code compliance. Work covers credit: omit decorative wall trim and credit: eliminate planned landscaping. Credits are applied for omitted work.",
+  "line_items": [
+    {
+      "description": "Credit: omit decorative wall trim",
+      "quantity": 114.0,
+      "unit": "LF",
+      "unit_price": 12.79,
+      "amount": -1458.06
+    },
+    {
+      "description": "Credit: eliminate planned landscaping",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 4230.56,
+      "amount": -4230.56
+    },
+    {
+      "description": "Credit: substitute vinyl for tile flooring",
+      "quantity": 1028.0,
+      "unit": "SF",
+      "unit_price": 3.3,
+      "amount": -3392.4
+    }
+  ],
+  "subtotal": -9081.02,
+  "markup_percent": null,
+  "markup_amount": null,
+  "total": -9081.02,
+  "currency": "USD",
+  "schedule_impact_days": 0,
+  "original_contract_sum": 5686000.0,
+  "new_contract_sum": 5676918.98,
+  "status": "Approved",
+  "signed": false
+}

@@ -1,0 +1,272 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_06_us_date.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "038",
+      "confidence": 1.0,
+      "evidence": "Change Order 038",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-09-03",
+      "confidence": 0.55,
+      "evidence": "Change Order 038 Date: 09/03/2026",
+      "flags": [
+        "ambiguous_date"
+      ]
+    },
+    "project_name": {
+      "value": "Maple Ridge Elementary Gym Addition",
+      "confidence": 1.0,
+      "evidence": "Project: Maple Ridge Elementary Gym Addition",
+      "flags": []
+    },
+    "owner": {
+      "value": "Cedar Point Holdings LLC",
+      "confidence": 1.0,
+      "evidence": "Owner: Cedar Point Holdings LLC",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Atlas Electric & Controls",
+      "confidence": 1.0,
+      "evidence": "Contractor: Atlas Electric & Controls",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "description": {
+      "value": "At the owner's request, additional scope was added. Work covers frame additional interior partition and waterproofing membrane.",
+      "confidence": 1.0,
+      "evidence": "Reason for Owner-requested scope change Change: Description of Change At the owner's request, additional scope was added. Work covers frame additional interior partition and waterproofing membrane.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 23385.73,
+      "confidence": 1.0,
+      "evidence": "Subtotal $23,385.73",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 2338.57,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%) $2,338.57",
+      "flags": []
+    },
+    "total": {
+      "value": 25724.3,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER $25,724.30",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 10,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 10 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 4298500.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: $4,298,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 4324224.3,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: $4,324,224.30",
+      "flags": []
+    },
+    "status": {
+      "value": "Approved",
+      "confidence": 1.0,
+      "evidence": "Status: Approved",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "Owner Contractor signature: ______________________ signature: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Frame additional interior partition",
+        "confidence": 1.0,
+        "evidence": "1 | Frame additional interior partition | 66 | LF | $24.66 | $1,627.56",
+        "flags": []
+      },
+      "quantity": {
+        "value": 66.0,
+        "confidence": 1.0,
+        "evidence": "1 | Frame additional interior partition | 66 | LF | $24.66 | $1,627.56",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "1 | Frame additional interior partition | 66 | LF | $24.66 | $1,627.56",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 24.66,
+        "confidence": 1.0,
+        "evidence": "1 | Frame additional interior partition | 66 | LF | $24.66 | $1,627.56",
+        "flags": []
+      },
+      "amount": {
+        "value": 1627.56,
+        "confidence": 1.0,
+        "evidence": "1 | Frame additional interior partition | 66 | LF | $24.66 | $1,627.56",
+        "flags": []
+      },
+      "evidence": "1 | Frame additional interior partition | 66 | LF | $24.66 | $1,627.56",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Waterproofing membrane",
+        "confidence": 1.0,
+        "evidence": "2 | Waterproofing membrane | 1,047 | SF | $4.91 | $5,140.77",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1047.0,
+        "confidence": 1.0,
+        "evidence": "2 | Waterproofing membrane | 1,047 | SF | $4.91 | $5,140.77",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "2 | Waterproofing membrane | 1,047 | SF | $4.91 | $5,140.77",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 4.91,
+        "confidence": 1.0,
+        "evidence": "2 | Waterproofing membrane | 1,047 | SF | $4.91 | $5,140.77",
+        "flags": []
+      },
+      "amount": {
+        "value": 5140.77,
+        "confidence": 1.0,
+        "evidence": "2 | Waterproofing membrane | 1,047 | SF | $4.91 | $5,140.77",
+        "flags": []
+      },
+      "evidence": "2 | Waterproofing membrane | 1,047 | SF | $4.91 | $5,140.77",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Rebar, #5 grade 60",
+        "confidence": 1.0,
+        "evidence": "3 | Rebar, #5 grade 60 | 3,422 | LB | $1.14 | $3,901.08",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3422.0,
+        "confidence": 1.0,
+        "evidence": "3 | Rebar, #5 grade 60 | 3,422 | LB | $1.14 | $3,901.08",
+        "flags": []
+      },
+      "unit": {
+        "value": "LB",
+        "confidence": 1.0,
+        "evidence": "3 | Rebar, #5 grade 60 | 3,422 | LB | $1.14 | $3,901.08",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.14,
+        "confidence": 1.0,
+        "evidence": "3 | Rebar, #5 grade 60 | 3,422 | LB | $1.14 | $3,901.08",
+        "flags": []
+      },
+      "amount": {
+        "value": 3901.08,
+        "confidence": 1.0,
+        "evidence": "3 | Rebar, #5 grade 60 | 3,422 | LB | $1.14 | $3,901.08",
+        "flags": []
+      },
+      "evidence": "3 | Rebar, #5 grade 60 | 3,422 | LB | $1.14 | $3,901.08",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "4 | Upgrade light fixtures to LED | 47 | EA | $270.56 | $12,716.32",
+        "flags": []
+      },
+      "quantity": {
+        "value": 47.0,
+        "confidence": 1.0,
+        "evidence": "4 | Upgrade light fixtures to LED | 47 | EA | $270.56 | $12,716.32",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "4 | Upgrade light fixtures to LED | 47 | EA | $270.56 | $12,716.32",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 270.56,
+        "confidence": 1.0,
+        "evidence": "4 | Upgrade light fixtures to LED | 47 | EA | $270.56 | $12,716.32",
+        "flags": []
+      },
+      "amount": {
+        "value": 12716.32,
+        "confidence": 1.0,
+        "evidence": "4 | Upgrade light fixtures to LED | 47 | EA | $270.56 | $12,716.32",
+        "flags": []
+      },
+      "evidence": "4 | Upgrade light fixtures to LED | 47 | EA | $270.56 | $12,716.32",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [
+    {
+      "code": "ambiguous_date",
+      "severity": "warn",
+      "fields": [
+        "co_date"
+      ],
+      "message": "'Change Order 038 Date: 09/03/2026' could be month/day or day/month; read as month first"
+    }
+  ],
+  "needs_review": true,
+  "review_reasons": [
+    "co_date (0.55): ambiguous_date",
+    "reason (0.425): possible_missed_field"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "co_01",
+    "file": "raw/co_01_clean_form.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "baseline"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 3
+  },
+  {
+    "id": "co_02",
+    "file": "raw/co_02_clean_form.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "baseline"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 5
+  },
+  {
+    "id": "co_03",
+    "file": "raw/co_03_credit_mixed.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "credit"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_04",
+    "file": "raw/co_04_deductive.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "credit",
+      "deductive_total"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 3
+  },
+  {
+    "id": "co_05",
+    "file": "raw/co_05_no_markup.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "no_markup"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_06",
+    "file": "raw/co_06_us_date.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "ambiguous_date"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_07",
+    "file": "raw/co_07_multipage.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "multipage"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 32
+  },
+  {
+    "id": "co_08",
+    "file": "raw/co_08_multipage_credits.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "multipage",
+      "credit"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 40
+  },
+  {
+    "id": "co_09",
+    "file": "raw/co_09_multipage_nomarkup.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "multipage",
+      "no_markup"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 28
+  },
+  {
+    "id": "co_10",
+    "file": "raw/co_10_email.txt",
+    "kind": "email_txt",
+    "tags": [
+      "email"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 3
+  },
+  {
+    "id": "co_11",
+    "file": "raw/co_11_email_credit.txt",
+    "kind": "email_txt",
+    "tags": [
+      "email",
+      "credit",
+      "distractor_numbers"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 5
+  },
+  {
+    "id": "co_12",
+    "file": "raw/co_12_email_thread.txt",
+    "kind": "email_txt",
+    "tags": [
+      "email",
+      "distractor_numbers"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_13",
+    "file": "raw/co_13_email_sparse.txt",
+    "kind": "email_txt",
+    "tags": [
+      "email",
+      "missing_fields"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 2
+  },
+  {
+    "id": "co_14",
+    "file": "raw/co_14_scan_good.pdf",
+    "kind": "scan_pdf",
+    "tags": [
+      "scan",
+      "ocr_required"
+    ],
+    "has_text_layer": false,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_15",
+    "file": "raw/co_15_scan_poor.pdf",
+    "kind": "scan_pdf",
+    "tags": [
+      "scan",
+      "ocr_required",
+      "poor_quality"
+    ],
+    "has_text_layer": false,
+    "expect_inconsistent": false,
+    "n_line_items": 5
+  },
+  {
+    "id": "co_16",
+    "file": "raw/co_16_scan_credit.pdf",
+    "kind": "scan_pdf",
+    "tags": [
+      "scan",
+      "ocr_required",
+      "credit"
+    ],
+    "has_text_layer": false,
+    "expect_inconsistent": false,
+    "n_line_items": 3
+  },
+  {
+    "id": "co_17",
+    "file": "raw/co_17_eu_format.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "eu_number_format",
+      "non_usd"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_18",
+    "file": "raw/co_18_wrong_total.pdf",
+    "kind": "form_pdf",
+    "tags": [
+      "source_inconsistent"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": true,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_19",
+    "file": "raw/co_19_letter.pdf",
+    "kind": "letter_pdf",
+    "tags": [
+      "narrative_layout",
+      "missing_fields"
+    ],
+    "has_text_layer": true,
+    "expect_inconsistent": false,
+    "n_line_items": 4
+  },
+  {
+    "id": "co_20",
+    "file": "raw/co_20_scan_poor_credit.pdf",
+    "kind": "scan_pdf",
+    "tags": [
+      "scan",
+      "ocr_required",
+      "poor_quality",
+      "credit",
+      "ambiguous_date"
+    ],
+    "has_text_layer": false,
+    "expect_inconsistent": false,
+    "n_line_items": 6
+  }
+]

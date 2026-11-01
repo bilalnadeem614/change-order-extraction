@@ -1,0 +1,1511 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_08_multipage_credits.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "043",
+      "confidence": 1.0,
+      "evidence": "Change Order 043",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-04-26",
+      "confidence": 1.0,
+      "evidence": "Change Order 043 Date: 2025-04-26",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Harborview Medical Office Building",
+      "confidence": 1.0,
+      "evidence": "Project: Harborview Medical Office Building",
+      "flags": []
+    },
+    "owner": {
+      "value": "City of Riverside",
+      "confidence": 1.0,
+      "evidence": "Owner: City of Riverside",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Ironclad Builders LLC",
+      "confidence": 1.0,
+      "evidence": "Contractor: Ironclad Builders LLC",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "description": {
+      "value": "Conditions found on site differ from the contract documents. Work covers crane rental and excavation for unforeseen rock. Credits are applied for omitted work.",
+      "confidence": 0.45,
+      "evidence": "Description of Change\nConditions found on site differ from the contract documents. Work covers crane rental and excavation for unforeseen\nrock. Credits are applied for omitted work.",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "subtotal": {
+      "value": 180537.09,
+      "confidence": 1.0,
+      "evidence": "Subtotal $180,537.09",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 15.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (15%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 27080.56,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (15%) $27,080.56",
+      "flags": []
+    },
+    "total": {
+      "value": 207617.65,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER $207,617.65",
+      "flags": []
+    },
+    "currency": {
+      "value": null,
+      "confidence": 0.191,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "passes_disagree"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 3,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 3 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 4283500.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: $4,283,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 4491117.65,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: $4,491,117.65",
+      "flags": []
+    },
+    "status": {
+      "value": "Pending",
+      "confidence": 1.0,
+      "evidence": "Status: Pending",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "signature: ______________________ signature: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Crane rental - Level 2, Zone D",
+        "confidence": 1.0,
+        "evidence": "1 Crane rental - Level 2, Zone D 3 DAY $1,414.92 $4,244.76",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3.0,
+        "confidence": 1.0,
+        "evidence": "1 Crane rental - Level 2, Zone D 3 DAY $1,414.92 $4,244.76",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "1 Crane rental - Level 2, Zone D 3 DAY $1,414.92 $4,244.76",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1414.92,
+        "confidence": 1.0,
+        "evidence": "1 Crane rental - Level 2, Zone D 3 DAY $1,414.92 $4,244.76",
+        "flags": []
+      },
+      "amount": {
+        "value": 4244.76,
+        "confidence": 1.0,
+        "evidence": "1 Crane rental - Level 2, Zone D 3 DAY $1,414.92 $4,244.76",
+        "flags": []
+      },
+      "evidence": "1 Crane rental - Level 2, Zone D 3 DAY $1,414.92 $4,244.76",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Excavation for unforeseen rock - Level 2, Zone 90",
+        "confidence": 0.45,
+        "evidence": "2 Excavation for unforeseen rock - Level 2, Zone 90 CY $91.25 $8,212.50",
+        "flags": [
+          "passes_disagree"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree"
+        ]
+      },
+      "unit": {
+        "value": "CY",
+        "confidence": 1.0,
+        "evidence": "2 Excavation for unforeseen rock - Level 2, Zone 90 CY $91.25 $8,212.50",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 91.25,
+        "confidence": 1.0,
+        "evidence": "2 Excavation for unforeseen rock - Level 2, Zone 90 CY $91.25 $8,212.50",
+        "flags": []
+      },
+      "amount": {
+        "value": 8212.5,
+        "confidence": 1.0,
+        "evidence": "2 Excavation for unforeseen rock - Level 2, Zone 90 CY $91.25 $8,212.50",
+        "flags": []
+      },
+      "evidence": "2 Excavation for unforeseen rock - Level 2, Zone 90 CY $91.25 $8,212.50",
+      "confidence": 0.382
+    },
+    {
+      "description": {
+        "value": "Fire-rated door and hardware - Level 5, Zone D",
+        "confidence": 1.0,
+        "evidence": "3 Fire-rated door and hardware - Level 5, Zone D 3 EA $1,309.29 $3,927.87",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3.0,
+        "confidence": 1.0,
+        "evidence": "3 Fire-rated door and hardware - Level 5, Zone D 3 EA $1,309.29 $3,927.87",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "3 Fire-rated door and hardware - Level 5, Zone D 3 EA $1,309.29 $3,927.87",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1309.29,
+        "confidence": 1.0,
+        "evidence": "3 Fire-rated door and hardware - Level 5, Zone D 3 EA $1,309.29 $3,927.87",
+        "flags": []
+      },
+      "amount": {
+        "value": 3927.87,
+        "confidence": 1.0,
+        "evidence": "3 Fire-rated door and hardware - Level 5, Zone D 3 EA $1,309.29 $3,927.87",
+        "flags": []
+      },
+      "evidence": "3 Fire-rated door and hardware - Level 5, Zone D 3 EA $1,309.29 $3,927.87",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Waterproofing membrane - Level 3, Zone B",
+        "confidence": 1.0,
+        "evidence": "4 Waterproofing membrane - Level 3, Zone B 1,060 SF $6.36 $6,741.60",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1060.0,
+        "confidence": 1.0,
+        "evidence": "4 Waterproofing membrane - Level 3, Zone B 1,060 SF $6.36 $6,741.60",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "4 Waterproofing membrane - Level 3, Zone B 1,060 SF $6.36 $6,741.60",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 6.36,
+        "confidence": 1.0,
+        "evidence": "4 Waterproofing membrane - Level 3, Zone B 1,060 SF $6.36 $6,741.60",
+        "flags": []
+      },
+      "amount": {
+        "value": 6741.6,
+        "confidence": 1.0,
+        "evidence": "4 Waterproofing membrane - Level 3, Zone B 1,060 SF $6.36 $6,741.60",
+        "flags": []
+      },
+      "evidence": "4 Waterproofing membrane - Level 3, Zone B 1,060 SF $6.36 $6,741.60",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED - Level 4, Zone C",
+        "confidence": 1.0,
+        "evidence": "5 Upgrade light fixtures to LED - Level 4, Zone C 61 EA $242.87 $14,815.07",
+        "flags": []
+      },
+      "quantity": {
+        "value": 61.0,
+        "confidence": 1.0,
+        "evidence": "5 Upgrade light fixtures to LED - Level 4, Zone C 61 EA $242.87 $14,815.07",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "5 Upgrade light fixtures to LED - Level 4, Zone C 61 EA $242.87 $14,815.07",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 242.87,
+        "confidence": 1.0,
+        "evidence": "5 Upgrade light fixtures to LED - Level 4, Zone C 61 EA $242.87 $14,815.07",
+        "flags": []
+      },
+      "amount": {
+        "value": 14815.07,
+        "confidence": 1.0,
+        "evidence": "5 Upgrade light fixtures to LED - Level 4, Zone C 61 EA $242.87 $14,815.07",
+        "flags": []
+      },
+      "evidence": "5 Upgrade light fixtures to LED - Level 4, Zone C 61 EA $242.87 $14,815.07",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits - Level 3, Zone A",
+        "confidence": 1.0,
+        "evidence": "6 Relocate 20A electrical circuits - Level 3, Zone A 7 EA $363.85 $2,546.95",
+        "flags": []
+      },
+      "quantity": {
+        "value": 7.0,
+        "confidence": 1.0,
+        "evidence": "6 Relocate 20A electrical circuits - Level 3, Zone A 7 EA $363.85 $2,546.95",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "6 Relocate 20A electrical circuits - Level 3, Zone A 7 EA $363.85 $2,546.95",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 363.85,
+        "confidence": 1.0,
+        "evidence": "6 Relocate 20A electrical circuits - Level 3, Zone A 7 EA $363.85 $2,546.95",
+        "flags": []
+      },
+      "amount": {
+        "value": 2546.95,
+        "confidence": 1.0,
+        "evidence": "6 Relocate 20A electrical circuits - Level 3, Zone A 7 EA $363.85 $2,546.95",
+        "flags": []
+      },
+      "evidence": "6 Relocate 20A electrical circuits - Level 3, Zone A 7 EA $363.85 $2,546.95",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Interior paint, two coats - Level 1, Zone B",
+        "confidence": 1.0,
+        "evidence": "7 Interior paint, two coats - Level 1, Zone B 1,700 SF $1.56 $2,652.00",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1700.0,
+        "confidence": 1.0,
+        "evidence": "7 Interior paint, two coats - Level 1, Zone B 1,700 SF $1.56 $2,652.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "7 Interior paint, two coats - Level 1, Zone B 1,700 SF $1.56 $2,652.00",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.56,
+        "confidence": 1.0,
+        "evidence": "7 Interior paint, two coats - Level 1, Zone B 1,700 SF $1.56 $2,652.00",
+        "flags": []
+      },
+      "amount": {
+        "value": 2652.0,
+        "confidence": 1.0,
+        "evidence": "7 Interior paint, two coats - Level 1, Zone B 1,700 SF $1.56 $2,652.00",
+        "flags": []
+      },
+      "evidence": "7 Interior paint, two coats - Level 1, Zone B 1,700 SF $1.56 $2,652.00",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: eliminate planned landscaping - Level 6, 1 LS",
+        "confidence": 1.0,
+        "evidence": "8 Credit: eliminate planned landscaping - Level 6, 1 LS $2,965.40 ($2,965.40)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 1.0,
+        "evidence": "8 Credit: eliminate planned landscaping - Level 6, 1 LS $2,965.40 ($2,965.40)",
+        "flags": []
+      },
+      "unit": {
+        "value": "LS",
+        "confidence": 1.0,
+        "evidence": "8 Credit: eliminate planned landscaping - Level 6, 1 LS $2,965.40 ($2,965.40)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2965.4,
+        "confidence": 1.0,
+        "evidence": "8 Credit: eliminate planned landscaping - Level 6, 1 LS $2,965.40 ($2,965.40)",
+        "flags": []
+      },
+      "amount": {
+        "value": -2965.4,
+        "confidence": 1.0,
+        "evidence": "8 Credit: eliminate planned landscaping - Level 6, 1 LS $2,965.40 ($2,965.40)",
+        "flags": []
+      },
+      "evidence": "8 Credit: eliminate planned landscaping - Level 6, 1 LS $2,965.40 ($2,965.40)",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Supervision labor - Level 1, Zone C",
+        "confidence": 1.0,
+        "evidence": "9 Supervision labor - Level 1, Zone C 41 HR $62.87 $2,577.67",
+        "flags": []
+      },
+      "quantity": {
+        "value": 41.0,
+        "confidence": 1.0,
+        "evidence": "9 Supervision labor - Level 1, Zone C 41 HR $62.87 $2,577.67",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "9 Supervision labor - Level 1, Zone C 41 HR $62.87 $2,577.67",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 62.87,
+        "confidence": 1.0,
+        "evidence": "9 Supervision labor - Level 1, Zone C 41 HR $62.87 $2,577.67",
+        "flags": []
+      },
+      "amount": {
+        "value": 2577.67,
+        "confidence": 1.0,
+        "evidence": "9 Supervision labor - Level 1, Zone C 41 HR $62.87 $2,577.67",
+        "flags": []
+      },
+      "evidence": "9 Supervision labor - Level 1, Zone C 41 HR $62.87 $2,577.67",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: substitute vinyl for tile flooring - Level 5, 571 SF",
+        "confidence": 1.0,
+        "evidence": "10 Credit: substitute vinyl for tile flooring - Level 5, 571 SF $3.50 ($1,998.50)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 571.0,
+        "confidence": 1.0,
+        "evidence": "10 Credit: substitute vinyl for tile flooring - Level 5, 571 SF $3.50 ($1,998.50)",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "10 Credit: substitute vinyl for tile flooring - Level 5, 571 SF $3.50 ($1,998.50)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 3.5,
+        "confidence": 1.0,
+        "evidence": "10 Credit: substitute vinyl for tile flooring - Level 5, 571 SF $3.50 ($1,998.50)",
+        "flags": []
+      },
+      "amount": {
+        "value": -1998.5,
+        "confidence": 1.0,
+        "evidence": "10 Credit: substitute vinyl for tile flooring - Level 5, 571 SF $3.50 ($1,998.50)",
+        "flags": []
+      },
+      "evidence": "10 Credit: substitute vinyl for tile flooring - Level 5, 571 SF $3.50 ($1,998.50)",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF",
+        "confidence": 1.0,
+        "evidence": "11 Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF $11.17 $16,386.39",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1467.0,
+        "confidence": 1.0,
+        "evidence": "11 Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF $11.17 $16,386.39",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "11 Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF $11.17 $16,386.39",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 11.17,
+        "confidence": 1.0,
+        "evidence": "11 Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF $11.17 $16,386.39",
+        "flags": []
+      },
+      "amount": {
+        "value": 16386.39,
+        "confidence": 1.0,
+        "evidence": "11 Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF $11.17 $16,386.39",
+        "flags": []
+      },
+      "evidence": "11 Additional 4\" concrete slab pour - Level 2, Zone 1,467 SF $11.17 $16,386.39",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Replace supply duct section - Level 4, Zone B",
+        "confidence": 1.0,
+        "evidence": "12 Replace supply duct section - Level 4, Zone B 59 LF $43.15 $2,545.85",
+        "flags": []
+      },
+      "quantity": {
+        "value": 59.0,
+        "confidence": 1.0,
+        "evidence": "12 Replace supply duct section - Level 4, Zone B 59 LF $43.15 $2,545.85",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "12 Replace supply duct section - Level 4, Zone B 59 LF $43.15 $2,545.85",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 43.15,
+        "confidence": 1.0,
+        "evidence": "12 Replace supply duct section - Level 4, Zone B 59 LF $43.15 $2,545.85",
+        "flags": []
+      },
+      "amount": {
+        "value": 2545.85,
+        "confidence": 1.0,
+        "evidence": "12 Replace supply duct section - Level 4, Zone B 59 LF $43.15 $2,545.85",
+        "flags": []
+      },
+      "evidence": "12 Replace supply duct section - Level 4, Zone B 59 LF $43.15 $2,545.85",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Drywall patch and finish - Level 6, Zone D",
+        "confidence": 1.0,
+        "evidence": "13 Drywall patch and finish - Level 6, Zone D 814 SF $6.97 $5,673.58",
+        "flags": []
+      },
+      "quantity": {
+        "value": 814.0,
+        "confidence": 1.0,
+        "evidence": "13 Drywall patch and finish - Level 6, Zone D 814 SF $6.97 $5,673.58",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "13 Drywall patch and finish - Level 6, Zone D 814 SF $6.97 $5,673.58",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 6.97,
+        "confidence": 1.0,
+        "evidence": "13 Drywall patch and finish - Level 6, Zone D 814 SF $6.97 $5,673.58",
+        "flags": []
+      },
+      "amount": {
+        "value": 5673.58,
+        "confidence": 1.0,
+        "evidence": "13 Drywall patch and finish - Level 6, Zone D 814 SF $6.97 $5,673.58",
+        "flags": []
+      },
+      "evidence": "13 Drywall patch and finish - Level 6, Zone D 814 SF $6.97 $5,673.58",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation - Level 2, Zone B",
+        "confidence": 1.0,
+        "evidence": "14 Sprinkler head relocation - Level 2, Zone B 32 EA $161.28 $5,160.96",
+        "flags": []
+      },
+      "quantity": {
+        "value": 32.0,
+        "confidence": 1.0,
+        "evidence": "14 Sprinkler head relocation - Level 2, Zone B 32 EA $161.28 $5,160.96",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "14 Sprinkler head relocation - Level 2, Zone B 32 EA $161.28 $5,160.96",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 161.28,
+        "confidence": 1.0,
+        "evidence": "14 Sprinkler head relocation - Level 2, Zone B 32 EA $161.28 $5,160.96",
+        "flags": []
+      },
+      "amount": {
+        "value": 5160.96,
+        "confidence": 1.0,
+        "evidence": "14 Sprinkler head relocation - Level 2, Zone B 32 EA $161.28 $5,160.96",
+        "flags": []
+      },
+      "evidence": "14 Sprinkler head relocation - Level 2, Zone B 32 EA $161.28 $5,160.96",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Rebar, #5 grade 60 - Level 1, Zone B",
+        "confidence": 1.0,
+        "evidence": "15 Rebar, #5 grade 60 - Level 1, Zone B 1,452 LB $1.29 $1,873.08",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1452.0,
+        "confidence": 1.0,
+        "evidence": "15 Rebar, #5 grade 60 - Level 1, Zone B 1,452 LB $1.29 $1,873.08",
+        "flags": []
+      },
+      "unit": {
+        "value": "LB",
+        "confidence": 1.0,
+        "evidence": "15 Rebar, #5 grade 60 - Level 1, Zone B 1,452 LB $1.29 $1,873.08",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.29,
+        "confidence": 1.0,
+        "evidence": "15 Rebar, #5 grade 60 - Level 1, Zone B 1,452 LB $1.29 $1,873.08",
+        "flags": []
+      },
+      "amount": {
+        "value": 1873.08,
+        "confidence": 1.0,
+        "evidence": "15 Rebar, #5 grade 60 - Level 1, Zone B 1,452 LB $1.29 $1,873.08",
+        "flags": []
+      },
+      "evidence": "15 Rebar, #5 grade 60 - Level 1, Zone B 1,452 LB $1.29 $1,873.08",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Frame additional interior partition - Level 3, Zone 198 LF",
+        "confidence": 1.0,
+        "evidence": "16 Frame additional interior partition - Level 3, Zone 198 LF $39.53 $7,826.94",
+        "flags": []
+      },
+      "quantity": {
+        "value": 198.0,
+        "confidence": 1.0,
+        "evidence": "16 Frame additional interior partition - Level 3, Zone 198 LF $39.53 $7,826.94",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "16 Frame additional interior partition - Level 3, Zone 198 LF $39.53 $7,826.94",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 39.53,
+        "confidence": 1.0,
+        "evidence": "16 Frame additional interior partition - Level 3, Zone 198 LF $39.53 $7,826.94",
+        "flags": []
+      },
+      "amount": {
+        "value": 7826.94,
+        "confidence": 1.0,
+        "evidence": "16 Frame additional interior partition - Level 3, Zone 198 LF $39.53 $7,826.94",
+        "flags": []
+      },
+      "evidence": "16 Frame additional interior partition - Level 3, Zone 198 LF $39.53 $7,826.94",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Crane rental - Level 3, Zone C",
+        "confidence": 1.0,
+        "evidence": "17 Crane rental - Level 3, Zone C 1 DAY $1,409.31 $1,409.31",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 1.0,
+        "evidence": "17 Crane rental - Level 3, Zone C 1 DAY $1,409.31 $1,409.31",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "17 Crane rental - Level 3, Zone C 1 DAY $1,409.31 $1,409.31",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1409.31,
+        "confidence": 1.0,
+        "evidence": "17 Crane rental - Level 3, Zone C 1 DAY $1,409.31 $1,409.31",
+        "flags": []
+      },
+      "amount": {
+        "value": 1409.31,
+        "confidence": 1.0,
+        "evidence": "17 Crane rental - Level 3, Zone C 1 DAY $1,409.31 $1,409.31",
+        "flags": []
+      },
+      "evidence": "17 Crane rental - Level 3, Zone C 1 DAY $1,409.31 $1,409.31",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: delete interior doors - Level 6, Zone B",
+        "confidence": 1.0,
+        "evidence": "18 Credit: delete interior doors - Level 6, Zone B 6 EA $600.98 ($3,605.88)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 6.0,
+        "confidence": 1.0,
+        "evidence": "18 Credit: delete interior doors - Level 6, Zone B 6 EA $600.98 ($3,605.88)",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "18 Credit: delete interior doors - Level 6, Zone B 6 EA $600.98 ($3,605.88)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 600.98,
+        "confidence": 1.0,
+        "evidence": "18 Credit: delete interior doors - Level 6, Zone B 6 EA $600.98 ($3,605.88)",
+        "flags": []
+      },
+      "amount": {
+        "value": -3605.88,
+        "confidence": 1.0,
+        "evidence": "18 Credit: delete interior doors - Level 6, Zone B 6 EA $600.98 ($3,605.88)",
+        "flags": []
+      },
+      "evidence": "18 Credit: delete interior doors - Level 6, Zone B 6 EA $600.98 ($3,605.88)",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Excavation for unforeseen rock - Level 2, Zone 37 CY",
+        "confidence": 1.0,
+        "evidence": "19 Excavation for unforeseen rock - Level 2, Zone 37 CY $74.56 $2,758.72",
+        "flags": []
+      },
+      "quantity": {
+        "value": 37.0,
+        "confidence": 1.0,
+        "evidence": "19 Excavation for unforeseen rock - Level 2, Zone 37 CY $74.56 $2,758.72",
+        "flags": []
+      },
+      "unit": {
+        "value": "CY",
+        "confidence": 1.0,
+        "evidence": "19 Excavation for unforeseen rock - Level 2, Zone 37 CY $74.56 $2,758.72",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 74.56,
+        "confidence": 1.0,
+        "evidence": "19 Excavation for unforeseen rock - Level 2, Zone 37 CY $74.56 $2,758.72",
+        "flags": []
+      },
+      "amount": {
+        "value": 2758.72,
+        "confidence": 1.0,
+        "evidence": "19 Excavation for unforeseen rock - Level 2, Zone 37 CY $74.56 $2,758.72",
+        "flags": []
+      },
+      "evidence": "19 Excavation for unforeseen rock - Level 2, Zone 37 CY $74.56 $2,758.72",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Fire-rated door and hardware - Level 5, Zone B",
+        "confidence": 1.0,
+        "evidence": "20 Fire-rated door and hardware - Level 5, Zone B 6 EA $2,031.95 $12,191.70",
+        "flags": []
+      },
+      "quantity": {
+        "value": 6.0,
+        "confidence": 1.0,
+        "evidence": "20 Fire-rated door and hardware - Level 5, Zone B 6 EA $2,031.95 $12,191.70",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "20 Fire-rated door and hardware - Level 5, Zone B 6 EA $2,031.95 $12,191.70",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2031.95,
+        "confidence": 1.0,
+        "evidence": "20 Fire-rated door and hardware - Level 5, Zone B 6 EA $2,031.95 $12,191.70",
+        "flags": []
+      },
+      "amount": {
+        "value": 12191.7,
+        "confidence": 1.0,
+        "evidence": "20 Fire-rated door and hardware - Level 5, Zone B 6 EA $2,031.95 $12,191.70",
+        "flags": []
+      },
+      "evidence": "20 Fire-rated door and hardware - Level 5, Zone B 6 EA $2,031.95 $12,191.70",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Waterproofing membrane - Level 5, Zone B",
+        "confidence": 1.0,
+        "evidence": "21 Waterproofing membrane - Level 5, Zone B 1,566 SF $6.42 $10,053.72",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1566.0,
+        "confidence": 1.0,
+        "evidence": "21 Waterproofing membrane - Level 5, Zone B 1,566 SF $6.42 $10,053.72",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "21 Waterproofing membrane - Level 5, Zone B 1,566 SF $6.42 $10,053.72",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 6.42,
+        "confidence": 1.0,
+        "evidence": "21 Waterproofing membrane - Level 5, Zone B 1,566 SF $6.42 $10,053.72",
+        "flags": []
+      },
+      "amount": {
+        "value": 10053.72,
+        "confidence": 1.0,
+        "evidence": "21 Waterproofing membrane - Level 5, Zone B 1,566 SF $6.42 $10,053.72",
+        "flags": []
+      },
+      "evidence": "21 Waterproofing membrane - Level 5, Zone B 1,566 SF $6.42 $10,053.72",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED - Level 3, Zone A",
+        "confidence": 1.0,
+        "evidence": "22 Upgrade light fixtures to LED - Level 3, Zone A 45 EA $290.30 $13,063.50",
+        "flags": []
+      },
+      "quantity": {
+        "value": 45.0,
+        "confidence": 1.0,
+        "evidence": "22 Upgrade light fixtures to LED - Level 3, Zone A 45 EA $290.30 $13,063.50",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "22 Upgrade light fixtures to LED - Level 3, Zone A 45 EA $290.30 $13,063.50",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 290.3,
+        "confidence": 1.0,
+        "evidence": "22 Upgrade light fixtures to LED - Level 3, Zone A 45 EA $290.30 $13,063.50",
+        "flags": []
+      },
+      "amount": {
+        "value": 13063.5,
+        "confidence": 1.0,
+        "evidence": "22 Upgrade light fixtures to LED - Level 3, Zone A 45 EA $290.30 $13,063.50",
+        "flags": []
+      },
+      "evidence": "22 Upgrade light fixtures to LED - Level 3, Zone A 45 EA $290.30 $13,063.50",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits - Level 6, Zone B",
+        "confidence": 1.0,
+        "evidence": "23 Relocate 20A electrical circuits - Level 6, Zone B 4 EA $190.89 $763.56",
+        "flags": []
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 1.0,
+        "evidence": "23 Relocate 20A electrical circuits - Level 6, Zone B 4 EA $190.89 $763.56",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "23 Relocate 20A electrical circuits - Level 6, Zone B 4 EA $190.89 $763.56",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 190.89,
+        "confidence": 1.0,
+        "evidence": "23 Relocate 20A electrical circuits - Level 6, Zone B 4 EA $190.89 $763.56",
+        "flags": []
+      },
+      "amount": {
+        "value": 763.56,
+        "confidence": 1.0,
+        "evidence": "23 Relocate 20A electrical circuits - Level 6, Zone B 4 EA $190.89 $763.56",
+        "flags": []
+      },
+      "evidence": "23 Relocate 20A electrical circuits - Level 6, Zone B 4 EA $190.89 $763.56",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Interior paint, two coats - Level 4, Zone D",
+        "confidence": 1.0,
+        "evidence": "24 Interior paint, two coats - Level 4, Zone D 2,956 SF $2.18 $6,444.08",
+        "flags": []
+      },
+      "quantity": {
+        "value": 2956.0,
+        "confidence": 1.0,
+        "evidence": "24 Interior paint, two coats - Level 4, Zone D 2,956 SF $2.18 $6,444.08",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "24 Interior paint, two coats - Level 4, Zone D 2,956 SF $2.18 $6,444.08",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2.18,
+        "confidence": 1.0,
+        "evidence": "24 Interior paint, two coats - Level 4, Zone D 2,956 SF $2.18 $6,444.08",
+        "flags": []
+      },
+      "amount": {
+        "value": 6444.08,
+        "confidence": 1.0,
+        "evidence": "24 Interior paint, two coats - Level 4, Zone D 2,956 SF $2.18 $6,444.08",
+        "flags": []
+      },
+      "evidence": "24 Interior paint, two coats - Level 4, Zone D 2,956 SF $2.18 $6,444.08",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Supervision labor - Level 1, Zone A",
+        "confidence": 1.0,
+        "evidence": "25 Supervision labor - Level 1, Zone A 35 HR $80.47 $2,816.45",
+        "flags": []
+      },
+      "quantity": {
+        "value": 35.0,
+        "confidence": 1.0,
+        "evidence": "25 Supervision labor - Level 1, Zone A 35 HR $80.47 $2,816.45",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "25 Supervision labor - Level 1, Zone A 35 HR $80.47 $2,816.45",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 80.47,
+        "confidence": 1.0,
+        "evidence": "25 Supervision labor - Level 1, Zone A 35 HR $80.47 $2,816.45",
+        "flags": []
+      },
+      "amount": {
+        "value": 2816.45,
+        "confidence": 1.0,
+        "evidence": "25 Supervision labor - Level 1, Zone A 35 HR $80.47 $2,816.45",
+        "flags": []
+      },
+      "evidence": "25 Supervision labor - Level 1, Zone A 35 HR $80.47 $2,816.45",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF",
+        "confidence": 1.0,
+        "evidence": "26 Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF $8.32 $11,639.68",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1399.0,
+        "confidence": 1.0,
+        "evidence": "26 Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF $8.32 $11,639.68",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "26 Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF $8.32 $11,639.68",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 8.32,
+        "confidence": 1.0,
+        "evidence": "26 Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF $8.32 $11,639.68",
+        "flags": []
+      },
+      "amount": {
+        "value": 11639.68,
+        "confidence": 1.0,
+        "evidence": "26 Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF $8.32 $11,639.68",
+        "flags": []
+      },
+      "evidence": "26 Additional 4\" concrete slab pour - Level 1, Zone 1,399 SF $8.32 $11,639.68",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Replace supply duct section - Level 4, Zone D",
+        "confidence": 1.0,
+        "evidence": "27 Replace supply duct section - Level 4, Zone D 73 LF $87.46 $6,384.58",
+        "flags": []
+      },
+      "quantity": {
+        "value": 73.0,
+        "confidence": 1.0,
+        "evidence": "27 Replace supply duct section - Level 4, Zone D 73 LF $87.46 $6,384.58",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "27 Replace supply duct section - Level 4, Zone D 73 LF $87.46 $6,384.58",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 87.46,
+        "confidence": 1.0,
+        "evidence": "27 Replace supply duct section - Level 4, Zone D 73 LF $87.46 $6,384.58",
+        "flags": []
+      },
+      "amount": {
+        "value": 6384.58,
+        "confidence": 1.0,
+        "evidence": "27 Replace supply duct section - Level 4, Zone D 73 LF $87.46 $6,384.58",
+        "flags": []
+      },
+      "evidence": "27 Replace supply duct section - Level 4, Zone D 73 LF $87.46 $6,384.58",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Drywall patch and finish - Level 5, Zone B",
+        "confidence": 1.0,
+        "evidence": "28 Drywall patch and finish - Level 5, Zone B 613 SF $6.65 $4,076.45",
+        "flags": []
+      },
+      "quantity": {
+        "value": 613.0,
+        "confidence": 1.0,
+        "evidence": "28 Drywall patch and finish - Level 5, Zone B 613 SF $6.65 $4,076.45",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "28 Drywall patch and finish - Level 5, Zone B 613 SF $6.65 $4,076.45",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 6.65,
+        "confidence": 1.0,
+        "evidence": "28 Drywall patch and finish - Level 5, Zone B 613 SF $6.65 $4,076.45",
+        "flags": []
+      },
+      "amount": {
+        "value": 4076.45,
+        "confidence": 1.0,
+        "evidence": "28 Drywall patch and finish - Level 5, Zone B 613 SF $6.65 $4,076.45",
+        "flags": []
+      },
+      "evidence": "28 Drywall patch and finish - Level 5, Zone B 613 SF $6.65 $4,076.45",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation - Level 6, Zone B",
+        "confidence": 1.0,
+        "evidence": "29 Sprinkler head relocation - Level 6, Zone B 25 EA $96.43 $2,410.75",
+        "flags": []
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 1.0,
+        "evidence": "29 Sprinkler head relocation - Level 6, Zone B 25 EA $96.43 $2,410.75",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "29 Sprinkler head relocation - Level 6, Zone B 25 EA $96.43 $2,410.75",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 96.43,
+        "confidence": 1.0,
+        "evidence": "29 Sprinkler head relocation - Level 6, Zone B 25 EA $96.43 $2,410.75",
+        "flags": []
+      },
+      "amount": {
+        "value": 2410.75,
+        "confidence": 1.0,
+        "evidence": "29 Sprinkler head relocation - Level 6, Zone B 25 EA $96.43 $2,410.75",
+        "flags": []
+      },
+      "evidence": "29 Sprinkler head relocation - Level 6, Zone B 25 EA $96.43 $2,410.75",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Rebar, #5 grade 60 - Level 4, Zone A",
+        "confidence": 1.0,
+        "evidence": "30 Rebar, #5 grade 60 - Level 4, Zone A 3,732 LB $1.41 $5,262.12",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3732.0,
+        "confidence": 1.0,
+        "evidence": "30 Rebar, #5 grade 60 - Level 4, Zone A 3,732 LB $1.41 $5,262.12",
+        "flags": []
+      },
+      "unit": {
+        "value": "LB",
+        "confidence": 1.0,
+        "evidence": "30 Rebar, #5 grade 60 - Level 4, Zone A 3,732 LB $1.41 $5,262.12",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.41,
+        "confidence": 1.0,
+        "evidence": "30 Rebar, #5 grade 60 - Level 4, Zone A 3,732 LB $1.41 $5,262.12",
+        "flags": []
+      },
+      "amount": {
+        "value": 5262.12,
+        "confidence": 1.0,
+        "evidence": "30 Rebar, #5 grade 60 - Level 4, Zone A 3,732 LB $1.41 $5,262.12",
+        "flags": []
+      },
+      "evidence": "30 Rebar, #5 grade 60 - Level 4, Zone A 3,732 LB $1.41 $5,262.12",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Frame additional interior partition - Level 6, Zone 74 LF",
+        "confidence": 1.0,
+        "evidence": "31 Frame additional interior partition - Level 6, Zone 74 LF $32.63 $2,414.62",
+        "flags": []
+      },
+      "quantity": {
+        "value": 74.0,
+        "confidence": 1.0,
+        "evidence": "31 Frame additional interior partition - Level 6, Zone 74 LF $32.63 $2,414.62",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "31 Frame additional interior partition - Level 6, Zone 74 LF $32.63 $2,414.62",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 32.63,
+        "confidence": 1.0,
+        "evidence": "31 Frame additional interior partition - Level 6, Zone 74 LF $32.63 $2,414.62",
+        "flags": []
+      },
+      "amount": {
+        "value": 2414.62,
+        "confidence": 1.0,
+        "evidence": "31 Frame additional interior partition - Level 6, Zone 74 LF $32.63 $2,414.62",
+        "flags": []
+      },
+      "evidence": "31 Frame additional interior partition - Level 6, Zone 74 LF $32.63 $2,414.62",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: omit decorative wall trim - Level 3, Zone 205 LF",
+        "confidence": 1.0,
+        "evidence": "32 Credit: omit decorative wall trim - Level 3, Zone 205 LF $15.22 ($3,120.10)",
+        "flags": []
+      },
+      "quantity": {
+        "value": 205.0,
+        "confidence": 1.0,
+        "evidence": "32 Credit: omit decorative wall trim - Level 3, Zone 205 LF $15.22 ($3,120.10)",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "32 Credit: omit decorative wall trim - Level 3, Zone 205 LF $15.22 ($3,120.10)",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 15.22,
+        "confidence": 1.0,
+        "evidence": "32 Credit: omit decorative wall trim - Level 3, Zone 205 LF $15.22 ($3,120.10)",
+        "flags": []
+      },
+      "amount": {
+        "value": -3120.1,
+        "confidence": 1.0,
+        "evidence": "32 Credit: omit decorative wall trim - Level 3, Zone 205 LF $15.22 ($3,120.10)",
+        "flags": []
+      },
+      "evidence": "32 Credit: omit decorative wall trim - Level 3, Zone 205 LF $15.22 ($3,120.10)",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Crane rental - Level 2, Zone A",
+        "confidence": 1.0,
+        "evidence": "33 Crane rental - Level 2, Zone A 4 DAY $2,268.49 $9,073.96",
+        "flags": []
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 1.0,
+        "evidence": "33 Crane rental - Level 2, Zone A 4 DAY $2,268.49 $9,073.96",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "33 Crane rental - Level 2, Zone A 4 DAY $2,268.49 $9,073.96",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2268.49,
+        "confidence": 1.0,
+        "evidence": "33 Crane rental - Level 2, Zone A 4 DAY $2,268.49 $9,073.96",
+        "flags": []
+      },
+      "amount": {
+        "value": 9073.96,
+        "confidence": 1.0,
+        "evidence": "33 Crane rental - Level 2, Zone A 4 DAY $2,268.49 $9,073.96",
+        "flags": []
+      },
+      "evidence": "33 Crane rental - Level 2, Zone A 4 DAY $2,268.49 $9,073.96",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Excavation for unforeseen rock - Level 1, Zone 21 CY",
+        "confidence": 1.0,
+        "evidence": "34 Excavation for unforeseen rock - Level 1, Zone 21 CY $101.21 $2,125.41",
+        "flags": []
+      },
+      "quantity": {
+        "value": 21.0,
+        "confidence": 1.0,
+        "evidence": "34 Excavation for unforeseen rock - Level 1, Zone 21 CY $101.21 $2,125.41",
+        "flags": []
+      },
+      "unit": {
+        "value": "CY",
+        "confidence": 1.0,
+        "evidence": "34 Excavation for unforeseen rock - Level 1, Zone 21 CY $101.21 $2,125.41",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 101.21,
+        "confidence": 1.0,
+        "evidence": "34 Excavation for unforeseen rock - Level 1, Zone 21 CY $101.21 $2,125.41",
+        "flags": []
+      },
+      "amount": {
+        "value": 2125.41,
+        "confidence": 1.0,
+        "evidence": "34 Excavation for unforeseen rock - Level 1, Zone 21 CY $101.21 $2,125.41",
+        "flags": []
+      },
+      "evidence": "34 Excavation for unforeseen rock - Level 1, Zone 21 CY $101.21 $2,125.41",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Fire-rated door and hardware - Level 6, Zone A",
+        "confidence": 1.0,
+        "evidence": "35 Fire-rated door and hardware - Level 6, Zone A 3 EA $1,022.81 $3,068.43",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3.0,
+        "confidence": 1.0,
+        "evidence": "35 Fire-rated door and hardware - Level 6, Zone A 3 EA $1,022.81 $3,068.43",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "35 Fire-rated door and hardware - Level 6, Zone A 3 EA $1,022.81 $3,068.43",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1022.81,
+        "confidence": 1.0,
+        "evidence": "35 Fire-rated door and hardware - Level 6, Zone A 3 EA $1,022.81 $3,068.43",
+        "flags": []
+      },
+      "amount": {
+        "value": 3068.43,
+        "confidence": 1.0,
+        "evidence": "35 Fire-rated door and hardware - Level 6, Zone A 3 EA $1,022.81 $3,068.43",
+        "flags": []
+      },
+      "evidence": "35 Fire-rated door and hardware - Level 6, Zone A 3 EA $1,022.81 $3,068.43",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Waterproofing membrane - Level 6, Zone C",
+        "confidence": 1.0,
+        "evidence": "36 Waterproofing membrane - Level 6, Zone C 1,239 SF $7.25 $8,982.75",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1239.0,
+        "confidence": 1.0,
+        "evidence": "36 Waterproofing membrane - Level 6, Zone C 1,239 SF $7.25 $8,982.75",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "36 Waterproofing membrane - Level 6, Zone C 1,239 SF $7.25 $8,982.75",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 7.25,
+        "confidence": 1.0,
+        "evidence": "36 Waterproofing membrane - Level 6, Zone C 1,239 SF $7.25 $8,982.75",
+        "flags": []
+      },
+      "amount": {
+        "value": 8982.75,
+        "confidence": 1.0,
+        "evidence": "36 Waterproofing membrane - Level 6, Zone C 1,239 SF $7.25 $8,982.75",
+        "flags": []
+      },
+      "evidence": "36 Waterproofing membrane - Level 6, Zone C 1,239 SF $7.25 $8,982.75",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED - Level 1, Zone D",
+        "confidence": 1.0,
+        "evidence": "37 Upgrade light fixtures to LED - Level 1, Zone D 13 EA $289.46 $3,762.98",
+        "flags": []
+      },
+      "quantity": {
+        "value": 13.0,
+        "confidence": 1.0,
+        "evidence": "37 Upgrade light fixtures to LED - Level 1, Zone D 13 EA $289.46 $3,762.98",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "37 Upgrade light fixtures to LED - Level 1, Zone D 13 EA $289.46 $3,762.98",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 289.46,
+        "confidence": 1.0,
+        "evidence": "37 Upgrade light fixtures to LED - Level 1, Zone D 13 EA $289.46 $3,762.98",
+        "flags": []
+      },
+      "amount": {
+        "value": 3762.98,
+        "confidence": 1.0,
+        "evidence": "37 Upgrade light fixtures to LED - Level 1, Zone D 13 EA $289.46 $3,762.98",
+        "flags": []
+      },
+      "evidence": "37 Upgrade light fixtures to LED - Level 1, Zone D 13 EA $289.46 $3,762.98",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Relocate 10A? actually 20A electrical circuits - Level 1, Zone C",
+        "confidence": 0.135,
+        "evidence": "38 Relocate 20A electrical circuits - Level 1, Zone C 2 EA $397.51 $795.02",
+        "flags": [
+          "value_not_in_evidence",
+          "passes_disagree"
+        ]
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 1.0,
+        "evidence": "38 Relocate 20A electrical circuits - Level 1, Zone C 2 EA $397.51 $795.02",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "38 Relocate 20A electrical circuits - Level 1, Zone C 2 EA $397.51 $795.02",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 397.51,
+        "confidence": 1.0,
+        "evidence": "38 Relocate 20A electrical circuits - Level 1, Zone C 2 EA $397.51 $795.02",
+        "flags": []
+      },
+      "amount": {
+        "value": 795.02,
+        "confidence": 1.0,
+        "evidence": "38 Relocate 20A electrical circuits - Level 1, Zone C 2 EA $397.51 $795.02",
+        "flags": []
+      },
+      "evidence": "38 Relocate 20A electrical circuits - Level 1, Zone C 2 EA $397.51 $795.02",
+      "confidence": 0.135
+    },
+    {
+      "description": {
+        "value": "Interior paint, two coats - Level 2, Zone D",
+        "confidence": 1.0,
+        "evidence": "39 Interior paint, two coats - Level 2, Zone D 2,801 SF $1.23 $3,445.23",
+        "flags": []
+      },
+      "quantity": {
+        "value": 2801.0,
+        "confidence": 1.0,
+        "evidence": "39 Interior paint, two coats - Level 2, Zone D 2,801 SF $1.23 $3,445.23",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "39 Interior paint, two coats - Level 2, Zone D 2,801 SF $1.23 $3,445.23",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.23,
+        "confidence": 1.0,
+        "evidence": "39 Interior paint, two coats - Level 2, Zone D 2,801 SF $1.23 $3,445.23",
+        "flags": []
+      },
+      "amount": {
+        "value": 3445.23,
+        "confidence": 1.0,
+        "evidence": "39 Interior paint, two coats - Level 2, Zone D 2,801 SF $1.23 $3,445.23",
+        "flags": []
+      },
+      "evidence": "39 Interior paint, two coats - Level 2, Zone D 2,801 SF $1.23 $3,445.23",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: eliminate planned landscaping - Level 6, 1 LS",
+        "confidence": 0.15,
+        "evidence": "40 Credit: eliminate planned landscaping - Level 6, 1 LS $5,901.27 ($5,901 ).",
+        "flags": [
+          "evidence_absent"
+        ]
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.15,
+        "evidence": "40 Credit: eliminate planned landscaping - Level 6, 1 LS $5,901.27 ($5,901 ).",
+        "flags": [
+          "evidence_absent"
+        ]
+      },
+      "unit": {
+        "value": "LS",
+        "confidence": 0.15,
+        "evidence": "40 Credit: eliminate planned landscaping - Level 6, 1 LS $5,901.27 ($5,901 ).",
+        "flags": [
+          "evidence_absent"
+        ]
+      },
+      "unit_price": {
+        "value": 5901.27,
+        "confidence": 0.15,
+        "evidence": "40 Credit: eliminate planned landscaping - Level 6, 1 LS $5,901.27 ($5,901 ).",
+        "flags": [
+          "evidence_absent"
+        ]
+      },
+      "amount": {
+        "value": -5901.27,
+        "confidence": 0.15,
+        "evidence": "40 Credit: eliminate planned landscaping - Level 6, 1 LS $5,901.27 ($5,901 ).",
+        "flags": [
+          "evidence_absent"
+        ]
+      },
+      "evidence": "40 Credit: eliminate planned landscaping - Level 6, 1 LS $5,901.27 ($5,901 ).",
+      "confidence": 0.15
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "reason (0.425): possible_missed_field",
+    "description (0.45): passes_disagree",
+    "currency (0.191): possible_missed_field, passes_disagree",
+    "line_items[1] (0.382): description, quantity",
+    "line_items[37] (0.135): description",
+    "line_items[39] (0.15): description, quantity, unit, unit_price, amount"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

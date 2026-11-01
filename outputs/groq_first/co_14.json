@@ -1,0 +1,330 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_14_scan_good.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 1,
+  "fields": {
+    "co_number": {
+      "value": "039",
+      "confidence": 0.656,
+      "evidence": "Change Order 039",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "co_date": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "project_name": {
+      "value": "Northgate Distribution Center",
+      "confidence": 0.968,
+      "evidence": "Project: Northgate Distribution Center",
+      "flags": []
+    },
+    "owner": {
+      "value": "Summit Peak Brewing Co.",
+      "confidence": 0.846,
+      "evidence": "Owner: Summit Peak Brewing Co.",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Redwood General Contractors",
+      "confidence": 0.777,
+      "evidence": "Contractor: Redwood General Contractors",
+      "flags": [
+        "evidence_fuzzy"
+      ]
+    },
+    "reason": {
+      "value": "Design error / RFI response",
+      "confidence": 0.861,
+      "evidence": "Reason for Design error / RFI response",
+      "flags": []
+    },
+    "description": {
+      "value": "Design error / RFI response",
+      "confidence": 0.861,
+      "evidence": "Reason for Design error / RFI response",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 18804.19,
+      "confidence": 0.408,
+      "evidence": "Subtotal 3 $18,804.19",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 0.688,
+      "evidence": "Overhead & Profit(10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1880.42,
+      "confidence": 0.688,
+      "evidence": "Overhead & Profit(10%) = © © $1,880.42",
+      "flags": []
+    },
+    "total": {
+      "value": 20684.61,
+      "confidence": 0.968,
+      "evidence": "TOTAL THIS CHANGE ORDER’ — - $20,684.61",
+      "flags": []
+    },
+    "currency": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 0,
+      "confidence": 0.701,
+      "evidence": "Change in Contract Time: - \"No change",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5132500.0,
+      "confidence": 0.06,
+      "evidence": "Original ContractSum: = = ==——_—«$5, 132,500.00",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence"
+      ]
+    },
+    "new_contract_sum": {
+      "value": 5153184.61,
+      "confidence": 0.194,
+      "evidence": "Revised.Contract Sum: ee $5,153,184. 61.",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence"
+      ]
+    },
+    "status": {
+      "value": "Executed",
+      "confidence": 0.623,
+      "evidence": "Status: Rhy - Executed",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "signed": {
+      "value": true,
+      "confidence": 0.735,
+      "evidence": "Owner Er + Contractor signature: /s/ Marcus Ortega",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "supply duct section",
+        "confidence": 0.504,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "value_spans_lines",
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": 79.0,
+        "confidence": 0.56,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 0.56,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit_price": {
+        "value": 58.62,
+        "confidence": 0.56,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 4630.98,
+        "confidence": 0.56,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+      "confidence": 0.504
+    },
+    {
+      "description": {
+        "value": "Rebar, #5 grade 60",
+        "confidence": 0.2,
+        "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": 1462.0,
+        "confidence": 0.2,
+        "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "amount": {
+        "value": 1374.28,
+        "confidence": 0.06,
+        "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+        "flags": [
+          "value_not_in_evidence",
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+      "confidence": 0.06
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits",
+        "confidence": 0.648,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": 15.0,
+        "confidence": 0.648,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 0.648,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit_price": {
+        "value": 385.47,
+        "confidence": 0.648,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 5782.05,
+        "confidence": 0.648,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+      "confidence": 0.648
+    },
+    {
+      "description": {
+        "value": "Additional 4\" concrete slab pour Nicaea",
+        "confidence": 0.656,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": 1014.0,
+        "confidence": 0.656,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 0.656,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit_price": {
+        "value": 6.92,
+        "confidence": 0.656,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 7016.88,
+        "confidence": 0.656,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+      "confidence": 0.656
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "co_number (0.656): low_ocr_confidence",
+    "co_date (0.425): possible_missed_field",
+    "subtotal (0.408): low_ocr_confidence",
+    "markup_percent (0.688): low confidence",
+    "markup_amount (0.688): low confidence",
+    "currency (0.425): possible_missed_field",
+    "original_contract_sum (0.06): value_not_in_evidence, low_ocr_confidence",
+    "new_contract_sum (0.194): value_not_in_evidence, low_ocr_confidence",
+    "status (0.623): low_ocr_confidence",
+    "line_items[0] (0.504): description, quantity, unit, unit_price, amount",
+    "line_items[1] (0.06): description, quantity, amount",
+    "line_items[2] (0.648): description, quantity, unit, unit_price, amount",
+    "line_items[3] (0.656): description, quantity, unit, unit_price, amount"
+  ],
+  "ingest": {
+    "used_ocr": true,
+    "mean_ocr_conf": 57.991189427312776,
+    "warnings": [
+      "OCR used on page(s) [1]"
+    ]
+  },
+  "notes": [
+    "second pass failed (LLMError); scored on a single pass"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "co_number": "CO-019",
+  "co_date": "2025-06-06",
+  "project_name": "Westfield Data Hall Fit-Out",
+  "owner": "Northgate Logistics Inc.",
+  "contractor": "Ironclad Builders LLC",
+  "reason": "Value engineering",
+  "description": "The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and waterproofing membrane.",
+  "line_items": [
+    {
+      "description": "Upgrade light fixtures to LED",
+      "quantity": 69.0,
+      "unit": "EA",
+      "unit_price": 180.25,
+      "amount": 12437.25
+    },
+    {
+      "description": "Waterproofing membrane",
+      "quantity": 872.0,
+      "unit": "SF",
+      "unit_price": 4.02,
+      "amount": 3505.44
+    }
+  ],
+  "subtotal": 15942.69,
+  "markup_percent": 10.0,
+  "markup_amount": 1594.27,
+  "total": 17536.96,
+  "currency": "USD",
+  "schedule_impact_days": null,
+  "original_contract_sum": null,
+  "new_contract_sum": null,
+  "status": "Pending",
+  "signed": null
+}

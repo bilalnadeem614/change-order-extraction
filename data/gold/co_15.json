@@ -1,0 +1,56 @@
+{
+  "co_number": "034",
+  "co_date": "2026-03-13",
+  "project_name": "Summit Peak Brewery Buildout",
+  "owner": "Lakeshore Township",
+  "contractor": "Brightline Construction Inc.",
+  "reason": "Unforeseen site condition",
+  "description": "Conditions found on site differ from the contract documents. Work covers crane rental and supervision labor.",
+  "line_items": [
+    {
+      "description": "Crane rental",
+      "quantity": 4.0,
+      "unit": "DAY",
+      "unit_price": 2395.3,
+      "amount": 9581.2
+    },
+    {
+      "description": "Supervision labor",
+      "quantity": 23.0,
+      "unit": "HR",
+      "unit_price": 70.35,
+      "amount": 1618.05
+    },
+    {
+      "description": "Additional 4\" concrete slab pour",
+      "quantity": 473.0,
+      "unit": "SF",
+      "unit_price": 7.4,
+      "amount": 3500.2
+    },
+    {
+      "description": "Fire-rated door and hardware",
+      "quantity": 3.0,
+      "unit": "EA",
+      "unit_price": 1297.67,
+      "amount": 3893.01
+    },
+    {
+      "description": "Sprinkler head relocation",
+      "quantity": 38.0,
+      "unit": "EA",
+      "unit_price": 182.09,
+      "amount": 6919.42
+    }
+  ],
+  "subtotal": 25511.88,
+  "markup_percent": 15.0,
+  "markup_amount": 3826.78,
+  "total": 29338.66,
+  "currency": "USD",
+  "schedule_impact_days": 7,
+  "original_contract_sum": 3107500.0,
+  "new_contract_sum": 3136838.66,
+  "status": "Executed",
+  "signed": true
+}

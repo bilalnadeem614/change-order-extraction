@@ -1,0 +1,49 @@
+{
+  "co_number": "039",
+  "co_date": "2025-08-30",
+  "project_name": "Northgate Distribution Center",
+  "owner": "Summit Peak Brewing Co.",
+  "contractor": "Redwood General Contractors",
+  "reason": "Design error / RFI response",
+  "description": "This change responds to a design clarification. Work covers replace supply duct section and rebar, #5 grade 60.",
+  "line_items": [
+    {
+      "description": "Replace supply duct section",
+      "quantity": 79.0,
+      "unit": "LF",
+      "unit_price": 58.62,
+      "amount": 4630.98
+    },
+    {
+      "description": "Rebar, #5 grade 60",
+      "quantity": 1462.0,
+      "unit": "LB",
+      "unit_price": 0.94,
+      "amount": 1374.28
+    },
+    {
+      "description": "Relocate 20A electrical circuits",
+      "quantity": 15.0,
+      "unit": "EA",
+      "unit_price": 385.47,
+      "amount": 5782.05
+    },
+    {
+      "description": "Additional 4\" concrete slab pour",
+      "quantity": 1014.0,
+      "unit": "SF",
+      "unit_price": 6.92,
+      "amount": 7016.88
+    }
+  ],
+  "subtotal": 18804.19,
+  "markup_percent": 10.0,
+  "markup_amount": 1880.42,
+  "total": 20684.61,
+  "currency": "USD",
+  "schedule_impact_days": 0,
+  "original_contract_sum": 5132500.0,
+  "new_contract_sum": 5153184.61,
+  "status": "Executed",
+  "signed": true
+}

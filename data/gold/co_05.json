@@ -1,0 +1,49 @@
+{
+  "co_number": "CO-032",
+  "co_date": "2025-12-22",
+  "project_name": "Pinecrest Retail Plaza",
+  "owner": "Cedar Point Holdings LLC",
+  "contractor": "Keystone Mechanical Co.",
+  "reason": "Unforeseen site condition",
+  "description": "Conditions found on site differ from the contract documents. Work covers fire-rated door and hardware and upgrade light fixtures to LED.",
+  "line_items": [
+    {
+      "description": "Fire-rated door and hardware",
+      "quantity": 6.0,
+      "unit": "EA",
+      "unit_price": 1502.46,
+      "amount": 9014.76
+    },
+    {
+      "description": "Upgrade light fixtures to LED",
+      "quantity": 71.0,
+      "unit": "EA",
+      "unit_price": 215.07,
+      "amount": 15269.97
+    },
+    {
+      "description": "Waterproofing membrane",
+      "quantity": 484.0,
+      "unit": "SF",
+      "unit_price": 8.33,
+      "amount": 4031.72
+    },
+    {
+      "description": "Excavation for unforeseen rock",
+      "quantity": 150.0,
+      "unit": "CY",
+      "unit_price": 120.41,
+      "amount": 18061.5
+    }
+  ],
+  "subtotal": 46377.95,
+  "markup_percent": null,
+  "markup_amount": null,
+  "total": 46377.95,
+  "currency": "USD",
+  "schedule_impact_days": 0,
+  "original_contract_sum": 4430500.0,
+  "new_contract_sum": 4476877.95,
+  "status": "Approved",
+  "signed": false
+}

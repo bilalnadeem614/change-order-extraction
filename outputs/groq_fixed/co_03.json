@@ -1,0 +1,263 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_03_credit_mixed.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-014",
+      "confidence": 1.0,
+      "evidence": "Change Order CO-014",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-02-05",
+      "confidence": 1.0,
+      "evidence": "Date: February 5, 2026",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Oakwood Senior Living Wing B",
+      "confidence": 1.0,
+      "evidence": "Project: Oakwood Senior Living Wing B",
+      "flags": []
+    },
+    "owner": {
+      "value": "Harborview Health Partners",
+      "confidence": 1.0,
+      "evidence": "Owner: Harborview Health Partners",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Keystone Mechanical Co.",
+      "confidence": 1.0,
+      "evidence": "Contractor: Keystone Mechanical Co.",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "description": {
+      "value": "This change responds to a design clarification. Work covers sprinkler head relocation and upgrade light fixtures to LED. Credits are applied for omitted work.",
+      "confidence": 0.45,
+      "evidence": "Description of Change\nThis change responds to a design clarification. Work covers sprinkler head relocation and upgrade light fixtures to LED. Credits are applied for omitted work.",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "subtotal": {
+      "value": 20487.7,
+      "confidence": 1.0,
+      "evidence": "Subtotal $20,487.70",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 2048.77,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%) $2,048.77",
+      "flags": []
+    },
+    "total": {
+      "value": 22536.47,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER $22,536.47",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: No change",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5999500.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: $5,999,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 6022036.47,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: $6,022,036.47",
+      "flags": []
+    },
+    "status": {
+      "value": "Executed",
+      "confidence": 1.0,
+      "evidence": "Status: Executed",
+      "flags": []
+    },
+    "signed": {
+      "value": true,
+      "confidence": 1.0,
+      "evidence": "signature: /s/ Ellen Frost",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Sprinkler head relocation",
+        "confidence": 1.0,
+        "evidence": "1 | Sprinkler head relocation | 7 | EA | $116.06 | $812.42",
+        "flags": []
+      },
+      "quantity": {
+        "value": 7.0,
+        "confidence": 1.0,
+        "evidence": "1 | Sprinkler head relocation | 7 | EA | $116.06 | $812.42",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "1 | Sprinkler head relocation | 7 | EA | $116.06 | $812.42",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 116.06,
+        "confidence": 1.0,
+        "evidence": "1 | Sprinkler head relocation | 7 | EA | $116.06 | $812.42",
+        "flags": []
+      },
+      "amount": {
+        "value": 812.42,
+        "confidence": 1.0,
+        "evidence": "1 | Sprinkler head relocation | 7 | EA | $116.06 | $812.42",
+        "flags": []
+      },
+      "evidence": "1 | Sprinkler head relocation | 7 | EA | $116.06 | $812.42",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 51 | EA | $306.46 | $15,629.46",
+        "flags": []
+      },
+      "quantity": {
+        "value": 51.0,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 51 | EA | $306.46 | $15,629.46",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 51 | EA | $306.46 | $15,629.46",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 306.46,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 51 | EA | $306.46 | $15,629.46",
+        "flags": []
+      },
+      "amount": {
+        "value": 15629.46,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 51 | EA | $306.46 | $15,629.46",
+        "flags": []
+      },
+      "evidence": "2 | Upgrade light fixtures to LED | 51 | EA | $306.46 | $15,629.46",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Additional 4\" concrete slab pour",
+        "confidence": 1.0,
+        "evidence": "3 | Additional 4\" concrete slab pour | 829 | SF | $8.76 | $7,262.04",
+        "flags": []
+      },
+      "quantity": {
+        "value": 829.0,
+        "confidence": 1.0,
+        "evidence": "3 | Additional 4\" concrete slab pour | 829 | SF | $8.76 | $7,262.04",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "3 | Additional 4\" concrete slab pour | 829 | SF | $8.76 | $7,262.04",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 8.76,
+        "confidence": 1.0,
+        "evidence": "3 | Additional 4\" concrete slab pour | 829 | SF | $8.76 | $7,262.04",
+        "flags": []
+      },
+      "amount": {
+        "value": 7262.04,
+        "confidence": 1.0,
+        "evidence": "3 | Additional 4\" concrete slab pour | 829 | SF | $8.76 | $7,262.04",
+        "flags": []
+      },
+      "evidence": "3 | Additional 4\" concrete slab pour | 829 | SF | $8.76 | $7,262.04",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: delete interior doors",
+        "confidence": 1.0,
+        "evidence": "4 | Credit: delete interior doors | 7 | EA | $459.46 | -$3,216.22",
+        "flags": []
+      },
+      "quantity": {
+        "value": 7.0,
+        "confidence": 1.0,
+        "evidence": "4 | Credit: delete interior doors | 7 | EA | $459.46 | -$3,216.22",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "4 | Credit: delete interior doors | 7 | EA | $459.46 | -$3,216.22",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 459.46,
+        "confidence": 1.0,
+        "evidence": "4 | Credit: delete interior doors | 7 | EA | $459.46 | -$3,216.22",
+        "flags": []
+      },
+      "amount": {
+        "value": -3216.22,
+        "confidence": 1.0,
+        "evidence": "4 | Credit: delete interior doors | 7 | EA | $459.46 | -$3,216.22",
+        "flags": []
+      },
+      "evidence": "4 | Credit: delete interior doors | 7 | EA | $459.46 | -$3,216.22",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "reason (0.425): possible_missed_field",
+    "description (0.45): passes_disagree"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

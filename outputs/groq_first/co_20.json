@@ -1,0 +1,432 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_20_scan_poor_credit.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 1,
+  "fields": {
+    "co_number": {
+      "value": null,
+      "confidence": 0.361,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "required_missing"
+      ]
+    },
+    "co_date": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": ". Oaks Sar vg Wn 8",
+      "confidence": 0.576,
+      "evidence": "Project Name: . Oaks Sar vg Wn 8",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "owner": {
+      "value": "Summit Peak Brewing Co.",
+      "confidence": 0.843,
+      "evidence": "Owner / Client: Summit Peak Brewing Co.",
+      "flags": []
+    },
+    "contractor": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 15.0,
+      "confidence": 0.528,
+      "evidence": "(15%)",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "markup_amount": {
+      "value": 2175.14,
+      "confidence": 0.528,
+      "evidence": "Overhead & Profit (15%) $2,175.14",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "total": {
+      "value": null,
+      "confidence": 0.722,
+      "evidence": null,
+      "flags": [
+        "required_missing"
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.618,
+      "evidence": "$",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "new_contract_sum": {
+      "value": 4868676.05,
+      "confidence": 0.2,
+      "evidence": "Contract Sum including This CO: -«-$4,868,676.05",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "signed": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Frame adctional interior partion eee, WEL",
+        "confidence": 0.472,
+        "evidence": "\"Frame adctional interior partion eee, WEL $29.66 \"$5,398.12",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": 29.66,
+        "confidence": 0.472,
+        "evidence": "\"Frame adctional interior partion eee, WEL $29.66 \"$5,398.12",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 5398.12,
+        "confidence": 0.472,
+        "evidence": "\"Frame adctional interior partion eee, WEL $29.66 \"$5,398.12",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "\"Frame adctional interior partion eee, WEL $29.66 \"$5,398.12",
+      "confidence": 0.472
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits",
+        "confidence": 0.408,
+        "evidence": "Relocate 20A electrical circuits : i 10 | EA $219.13 - $2,191.30.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.408,
+        "evidence": "Relocate 20A electrical circuits : i 10 | EA $219.13 - $2,191.30.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 0.408,
+        "evidence": "Relocate 20A electrical circuits : i 10 | EA $219.13 - $2,191.30.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit_price": {
+        "value": 219.13,
+        "confidence": 0.408,
+        "evidence": "Relocate 20A electrical circuits : i 10 | EA $219.13 - $2,191.30.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 2191.3,
+        "confidence": 0.408,
+        "evidence": "Relocate 20A electrical circuits : i 10 | EA $219.13 - $2,191.30.",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Relocate 20A electrical circuits : i 10 | EA $219.13 - $2,191.30.",
+      "confidence": 0.408
+    },
+    {
+      "description": {
+        "value": "Sprinkier head relocation",
+        "confidence": 0.256,
+        "evidence": "Sprinkier head relocation 18 $2074 $3,107.10",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": 18.0,
+        "confidence": 0.141,
+        "evidence": "Sprinkier head relocation 18 $2074 $3,107.10",
+        "flags": [
+          "low_ocr_confidence",
+          "qty_price_mismatch"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2074.0,
+        "confidence": 0.141,
+        "evidence": "Sprinkier head relocation 18 $2074 $3,107.10",
+        "flags": [
+          "low_ocr_confidence",
+          "qty_price_mismatch"
+        ]
+      },
+      "amount": {
+        "value": 3107.1,
+        "confidence": 0.141,
+        "evidence": "Sprinkier head relocation 18 $2074 $3,107.10",
+        "flags": [
+          "low_ocr_confidence",
+          "qty_price_mismatch"
+        ]
+      },
+      "evidence": "Sprinkier head relocation 18 $2074 $3,107.10",
+      "confidence": 0.141
+    },
+    {
+      "description": {
+        "value": "Rebarsgrade6O",
+        "confidence": 0.2,
+        "evidence": "Rebarsgrade6O Ae y $102 $9,287.46:",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit": {
+        "value": "Ae",
+        "confidence": 0.2,
+        "evidence": "Rebarsgrade6O Ae y $102 $9,287.46:",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "unit_price": {
+        "value": 102.0,
+        "confidence": 0.2,
+        "evidence": "Rebarsgrade6O Ae y $102 $9,287.46:",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "amount": {
+        "value": 9287.46,
+        "confidence": 0.2,
+        "evidence": "Rebarsgrade6O Ae y $102 $9,287.46:",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Rebarsgrade6O Ae y $102 $9,287.46:",
+      "confidence": 0.2
+    },
+    {
+      "description": {
+        "value": "Credit: delete interior doors ee (BS Meese",
+        "confidence": 0.448,
+        "evidence": "Credit: delete interior doors ee (BS Meese \"$704.39. ss - ($4,706.34)",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "amount": {
+        "value": -4706.34,
+        "confidence": 0.448,
+        "evidence": "Credit: delete interior doors ee (BS Meese \"$704.39. ss - ($4,706.34)",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Credit: delete interior doors ee (BS Meese \"$704.39. ss - ($4,706.34)",
+      "confidence": 0.448
+    },
+    {
+      "description": {
+        "value": "Overhead & Profit",
+        "confidence": 0.528,
+        "evidence": "Overhead & Profit (15%) $2,175.14",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.85,
+        "evidence": null,
+        "flags": []
+      },
+      "amount": {
+        "value": 2175.14,
+        "confidence": 0.528,
+        "evidence": "Overhead & Profit (15%) $2,175.14",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "evidence": "Overhead & Profit (15%) $2,175.14",
+      "confidence": 0.528
+    }
+  ],
+  "issues": [
+    {
+      "code": "qty_price_mismatch",
+      "severity": "error",
+      "fields": [
+        "line_items[2]"
+      ],
+      "message": "item 3: 18.0 x 2074.0 = 37332.0, but amount is 3107.1"
+    },
+    {
+      "code": "required_missing",
+      "severity": "warn",
+      "fields": [
+        "co_number"
+      ],
+      "message": "co_number is missing"
+    },
+    {
+      "code": "required_missing",
+      "severity": "warn",
+      "fields": [
+        "total"
+      ],
+      "message": "total is missing"
+    }
+  ],
+  "needs_review": true,
+  "review_reasons": [
+    "co_number (0.361): possible_missed_field, required_missing",
+    "project_name (0.576): low_ocr_confidence",
+    "markup_percent (0.528): low_ocr_confidence",
+    "markup_amount (0.528): low_ocr_confidence",
+    "currency (0.618): low_ocr_confidence",
+    "schedule_impact_days (0.425): possible_missed_field",
+    "original_contract_sum (0.425): possible_missed_field",
+    "new_contract_sum (0.2): low_ocr_confidence",
+    "line_items[0] (0.472): description, unit_price, amount",
+    "line_items[1] (0.408): description, quantity, unit, unit_price, amount",
+    "line_items[2] (0.141): description, quantity, unit_price, amount",
+    "line_items[3] (0.2): description, unit, unit_price, amount",
+    "line_items[4] (0.448): description, amount",
+    "line_items[5] (0.528): description, amount",
+    "validation: item 3: 18.0 x 2074.0 = 37332.0, but amount is 3107.1"
+  ],
+  "ingest": {
+    "used_ocr": true,
+    "mean_ocr_conf": 52.309734513274336,
+    "warnings": [
+      "OCR used on page(s) [1]",
+      "low OCR confidence (52/100)"
+    ]
+  },
+  "notes": [
+    "second pass failed (LLMError); scored on a single pass"
+  ]
+}

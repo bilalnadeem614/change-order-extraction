@@ -1,0 +1,49 @@
+{
+  "co_number": "038",
+  "co_date": "2026-05-29",
+  "project_name": "Maple Ridge Elementary Gym Addition",
+  "owner": "City of Riverside",
+  "contractor": "Redwood General Contractors",
+  "reason": "Owner-requested scope change",
+  "description": "At the owner's request, additional scope was added. Work covers rebar, #5 grade 60 and fire-rated door and hardware.",
+  "line_items": [
+    {
+      "description": "Rebar, #5 grade 60",
+      "quantity": 2181.0,
+      "unit": "LB",
+      "unit_price": 1.25,
+      "amount": 2726.25
+    },
+    {
+      "description": "Fire-rated door and hardware",
+      "quantity": 5.0,
+      "unit": "EA",
+      "unit_price": 1803.67,
+      "amount": 9018.35
+    },
+    {
+      "description": "Frame additional interior partition",
+      "quantity": 35.0,
+      "unit": "LF",
+      "unit_price": 40.8,
+      "amount": 1428.0
+    },
+    {
+      "description": "Crane rental",
+      "quantity": 1.0,
+      "unit": "DAY",
+      "unit_price": 2453.77,
+      "amount": 2453.77
+    }
+  ],
+  "subtotal": 15626.37,
+  "markup_percent": 10.0,
+  "markup_amount": 1562.64,
+  "total": 17189.01,
+  "currency": "USD",
+  "schedule_impact_days": 3,
+  "original_contract_sum": null,
+  "new_contract_sum": null,
+  "status": "Pending",
+  "signed": false
+}

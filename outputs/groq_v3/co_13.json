@@ -1,0 +1,188 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_13_email_sparse.txt",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-019",
+      "confidence": 1.0,
+      "evidence": "Change order CO-019",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-06-06",
+      "confidence": 1.0,
+      "evidence": "Date: June 6, 2025, 9:18 AM",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Westfield Data Hall Fit-Out",
+      "confidence": 1.0,
+      "evidence": "Westfield Data Hall Fit-Out",
+      "flags": []
+    },
+    "owner": {
+      "value": "Northgate Logistics Inc.",
+      "confidence": 1.0,
+      "evidence": "owner: Northgate Logistics Inc.",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Ironclad Builders LLC",
+      "confidence": 1.0,
+      "evidence": "Ellen Frost\nProject Manager, Ironclad Builders LLC",
+      "flags": []
+    },
+    "reason": {
+      "value": "Value engineering",
+      "confidence": 1.0,
+      "evidence": "Reason: Value engineering",
+      "flags": []
+    },
+    "description": {
+      "value": "The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and waterproofing membrane.",
+      "confidence": 1.0,
+      "evidence": "Scope: The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and waterproofing membrane.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 15942.69,
+      "confidence": 1.0,
+      "evidence": "Subtotal: $15,942.69",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Markup (10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1594.27,
+      "confidence": 1.0,
+      "evidence": "Markup (10%): $1,594.27",
+      "flags": []
+    },
+    "total": {
+      "value": 17536.96,
+      "confidence": 1.0,
+      "evidence": "Total change: $17,536.96",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "status": {
+      "value": "Pending",
+      "confidence": 1.0,
+      "evidence": "Status: Pending - need your sign-off to proceed.",
+      "flags": []
+    },
+    "signed": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25",
+        "flags": []
+      },
+      "quantity": {
+        "value": 69.0,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 180.25,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25",
+        "flags": []
+      },
+      "amount": {
+        "value": 12437.25,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25",
+        "flags": []
+      },
+      "evidence": "Upgrade light fixtures to LED: 69 EA @ $180.25 = $12,437.25",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Waterproofing membrane",
+        "confidence": 1.0,
+        "evidence": "Waterproofing membrane: 872 SF @ $4.02 = $3,505.44",
+        "flags": []
+      },
+      "quantity": {
+        "value": 872.0,
+        "confidence": 1.0,
+        "evidence": "Waterproofing membrane: 872 SF @ $4.02 = $3,505.44",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "Waterproofing membrane: 872 SF @ $4.02 = $3,505.44",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 4.02,
+        "confidence": 1.0,
+        "evidence": "Waterproofing membrane: 872 SF @ $4.02 = $3,505.44",
+        "flags": []
+      },
+      "amount": {
+        "value": 3505.44,
+        "confidence": 1.0,
+        "evidence": "Waterproofing membrane: 872 SF @ $4.02 = $3,505.44",
+        "flags": []
+      },
+      "evidence": "Waterproofing membrane: 872 SF @ $4.02 = $3,505.44",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": false,
+  "review_reasons": [],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

@@ -1,0 +1,49 @@
+{
+  "co_number": "041",
+  "co_date": "2026-05-05",
+  "project_name": "Summit Peak Brewery Buildout",
+  "owner": "Maple Ridge School District",
+  "contractor": "Redwood General Contractors",
+  "reason": "Owner-requested scope change",
+  "description": "At the owner's request, additional scope was added. Work covers replace supply duct section and frame additional interior partition.",
+  "line_items": [
+    {
+      "description": "Replace supply duct section",
+      "quantity": 110.0,
+      "unit": "LF",
+      "unit_price": 55.36,
+      "amount": 6089.6
+    },
+    {
+      "description": "Frame additional interior partition",
+      "quantity": 64.0,
+      "unit": "LF",
+      "unit_price": 37.72,
+      "amount": 2414.08
+    },
+    {
+      "description": "Supervision labor",
+      "quantity": 48.0,
+      "unit": "HR",
+      "unit_price": 86.52,
+      "amount": 4152.96
+    },
+    {
+      "description": "Relocate 20A electrical circuits",
+      "quantity": 4.0,
+      "unit": "EA",
+      "unit_price": 378.66,
+      "amount": 1514.64
+    }
+  ],
+  "subtotal": 14171.28,
+  "markup_percent": 10.0,
+  "markup_amount": 1417.13,
+  "total": 15488.41,
+  "currency": "USD",
+  "schedule_impact_days": 7,
+  "original_contract_sum": 3002000.0,
+  "new_contract_sum": 3017588.41,
+  "status": "Approved",
+  "signed": false
+}

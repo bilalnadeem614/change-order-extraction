@@ -1,0 +1,390 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_15_scan_poor.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": null,
+      "confidence": 0.361,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "required_missing"
+      ]
+    },
+    "co_date": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": "Beghting Construction",
+      "confidence": 0.196,
+      "evidence": "Beghting Construction to. conidentig’",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "subtotal": {
+      "value": 25511.88,
+      "confidence": 0.232,
+      "evidence": "Subtotai : tats $25,511.88",
+      "flags": [
+        "passes_disagree",
+        "items_sum_mismatch"
+      ]
+    },
+    "markup_percent": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "markup_amount": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "total": {
+      "value": null,
+      "confidence": 0.722,
+      "evidence": null,
+      "flags": [
+        "required_missing"
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.54,
+      "evidence": "$",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 7,
+      "confidence": 0.166,
+      "evidence": "Change in Contract Time: 7 calendar days",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "original_contract_sum": {
+      "value": 8107800.0,
+      "confidence": 0.09,
+      "evidence": "Original Contract Sum: —..'$8,107,800.00.",
+      "flags": [
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "new_contract_sum": {
+      "value": 3136838.66,
+      "confidence": 0.077,
+      "evidence": "Revised Contract Sum: $3,136.838.66",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "signed": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Supervision labor",
+        "confidence": 0.274,
+        "evidence": "Supervision labor PES ReION Saree i $7095 $1,618.05.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 1618.05,
+        "confidence": 0.15,
+        "evidence": "Supervision labor PES ReION Saree i $7095 $1,618.05.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "items_sum_mismatch",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "Supervision labor PES ReION Saree i $7095 $1,618.05.",
+      "confidence": 0.15
+    },
+    {
+      "description": {
+        "value": "Additional 4° concrete slab pour",
+        "confidence": 0.137,
+        "evidence": "Additional 4° concrete slab pour PROS Byers $740) $380030.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 380030.0,
+        "confidence": 0.075,
+        "evidence": "Additional 4° concrete slab pour PROS Byers $740) $380030.",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "items_sum_mismatch",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "Additional 4° concrete slab pour PROS Byers $740) $380030.",
+      "confidence": 0.075
+    },
+    {
+      "description": {
+        "value": "Fre-raied door and hardware",
+        "confidence": 0.101,
+        "evidence": "Fre-raied door and hardware PADIS Shea: 3. $1,29767' 3.80301",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 129767.0,
+        "confidence": 0.017,
+        "evidence": "Fre-raied door and hardware PADIS Shea: 3. $1,29767' 3.80301",
+        "flags": [
+          "value_not_in_evidence",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "items_sum_mismatch",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "Fre-raied door and hardware PADIS Shea: 3. $1,29767' 3.80301",
+      "confidence": 0.017
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation",
+        "confidence": 0.2,
+        "evidence": "Sprinkler head relocation Hae $18209 0 $6,919.42",
+        "flags": [
+          "low_ocr_confidence"
+        ]
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree"
+        ]
+      },
+      "amount": {
+        "value": 6919.42,
+        "confidence": 0.11,
+        "evidence": "Sprinkler head relocation Hae $18209 0 $6,919.42",
+        "flags": [
+          "low_ocr_confidence",
+          "items_sum_mismatch"
+        ]
+      },
+      "evidence": "Sprinkler head relocation Hae $18209 0 $6,919.42",
+      "confidence": 0.11
+    }
+  ],
+  "issues": [
+    {
+      "code": "items_sum_mismatch",
+      "severity": "error",
+      "fields": [
+        "subtotal",
+        "line_items[0]",
+        "line_items[1]",
+        "line_items[2]",
+        "line_items[3]"
+      ],
+      "message": "line items sum to 518334.47 but subtotal is 25511.88"
+    },
+    {
+      "code": "required_missing",
+      "severity": "warn",
+      "fields": [
+        "co_number"
+      ],
+      "message": "co_number is missing"
+    },
+    {
+      "code": "required_missing",
+      "severity": "warn",
+      "fields": [
+        "total"
+      ],
+      "message": "total is missing"
+    }
+  ],
+  "needs_review": true,
+  "review_reasons": [
+    "co_number (0.361): possible_missed_field, required_missing",
+    "contractor (0.196): low_ocr_confidence, passes_disagree",
+    "subtotal (0.232): passes_disagree, items_sum_mismatch",
+    "currency (0.54): low_ocr_confidence",
+    "schedule_impact_days (0.166): low_ocr_confidence, passes_disagree",
+    "original_contract_sum (0.09): low_ocr_confidence, passes_disagree",
+    "new_contract_sum (0.077): value_not_in_evidence, low_ocr_confidence, passes_disagree",
+    "line_items[0] (0.15): description, quantity, unit, unit_price, amount",
+    "line_items[1] (0.075): description, quantity, unit, unit_price, amount",
+    "line_items[2] (0.017): description, quantity, unit, unit_price, amount",
+    "line_items[3] (0.11): description, quantity, unit, unit_price, amount",
+    "validation: line items sum to 518334.47 but subtotal is 25511.88"
+  ],
+  "ingest": {
+    "used_ocr": true,
+    "mean_ocr_conf": 42.45054945054945,
+    "warnings": [
+      "OCR used on page(s) [1]",
+      "low OCR confidence (42/100)"
+    ]
+  },
+  "notes": []
+}

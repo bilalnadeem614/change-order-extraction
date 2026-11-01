@@ -1,0 +1,231 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_10_email.txt",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-023",
+      "confidence": 1.0,
+      "evidence": "Change order CO-023",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-09-17",
+      "confidence": 1.0,
+      "evidence": "Date: September 17, 2026",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Maple Ridge Elementary Gym Addition",
+      "confidence": 1.0,
+      "evidence": "Change order CO-023 on Maple Ridge Elementary Gym Addition",
+      "flags": []
+    },
+    "owner": {
+      "value": "Pinecrest Development Corp.",
+      "confidence": 1.0,
+      "evidence": "owner: Pinecrest Development Corp.",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Atlas Electric & Controls",
+      "confidence": 1.0,
+      "evidence": "Ellen Frost\nProject Manager, Atlas Electric & Controls",
+      "flags": []
+    },
+    "reason": {
+      "value": "Design error / RFI response",
+      "confidence": 1.0,
+      "evidence": "Reason: Design error / RFI response",
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 0.191,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "passes_disagree"
+      ]
+    },
+    "subtotal": {
+      "value": 16584.16,
+      "confidence": 1.0,
+      "evidence": "Subtotal: $16,584.16",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Markup (10%):",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1658.42,
+      "confidence": 1.0,
+      "evidence": "Markup (10%): $1,658.42",
+      "flags": []
+    },
+    "total": {
+      "value": 18242.58,
+      "confidence": 1.0,
+      "evidence": "Total change: $18,242.58",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 7,
+      "confidence": 1.0,
+      "evidence": "Schedule impact: 7 calendar days.",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5342500.0,
+      "confidence": 1.0,
+      "evidence": "Contract sum moves from $5,342,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 5360742.58,
+      "confidence": 1.0,
+      "evidence": "to $5,360,742.58",
+      "flags": []
+    },
+    "status": {
+      "value": "Executed - need your sign-off to proceed.",
+      "confidence": 1.0,
+      "evidence": "Status: Executed - need your sign-off to proceed.",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 0.225,
+      "evidence": null,
+      "flags": [
+        "evidence_missing",
+        "passes_disagree"
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72",
+        "flags": []
+      },
+      "quantity": {
+        "value": 77.0,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 121.36,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72",
+        "flags": []
+      },
+      "amount": {
+        "value": 9344.72,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72",
+        "flags": []
+      },
+      "evidence": "Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Supervision labor",
+        "confidence": 1.0,
+        "evidence": "Supervision labor | 64 | HR | $57.46 | $3,677.44",
+        "flags": []
+      },
+      "quantity": {
+        "value": 64.0,
+        "confidence": 1.0,
+        "evidence": "Supervision labor | 64 | HR | $57.46 | $3,677.44",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "Supervision labor | 64 | HR | $57.46 | $3,677.44",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 57.46,
+        "confidence": 1.0,
+        "evidence": "Supervision labor | 64 | HR | $57.46 | $3,677.44",
+        "flags": []
+      },
+      "amount": {
+        "value": 3677.44,
+        "confidence": 1.0,
+        "evidence": "Supervision labor | 64 | HR | $57.46 | $3,677.44",
+        "flags": []
+      },
+      "evidence": "Supervision labor | 64 | HR | $57.46 | $3,677.44",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Drywall patch and finish",
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish | 650 | SF | $5.48 | $3,562.00",
+        "flags": []
+      },
+      "quantity": {
+        "value": 650.0,
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish | 650 | SF | $5.48 | $3,562.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish | 650 | SF | $5.48 | $3,562.00",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 5.48,
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish | 650 | SF | $5.48 | $3,562.00",
+        "flags": []
+      },
+      "amount": {
+        "value": 3562.0,
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish | 650 | SF | $5.48 | $3,562.00",
+        "flags": []
+      },
+      "evidence": "Drywall patch and finish | 650 | SF | $5.48 | $3,562.00",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "description (0.191): possible_missed_field, passes_disagree",
+    "signed (0.225): evidence_missing, passes_disagree"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

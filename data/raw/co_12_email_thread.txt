@@ -1,0 +1,32 @@
+From: Ellen Frost <ellenfrost@redwoodgeneralcontractors.example>
+To: Tom Bellamy <tombellamy@lakeshoretownship.example>
+Date: May 23, 2025, 9:54 AM
+Subject: Change order PCO-43 - Northgate Distribution Center
+
+Hi Tom,
+
+Pricing for change order PCO-43 on Northgate Distribution Center (owner: Lakeshore Township) is below.
+Reason: Value engineering
+Scope: The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and sprinkler head relocation.
+
+Items:
+- Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64
+- Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73
+- Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35
+- Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20
+
+Subtotal: $25,946.92
+Markup (15%): $3,892.04
+Total change: $29,838.96
+
+Schedule impact: 7 calendar days.
+Contract sum moves from $5,892,500.00 to $5,922,338.96.
+Status: Approved - need your sign-off to proceed.
+
+Thanks,
+Ellen Frost
+Project Manager, Redwood General Contractors
+
+On May 10, 2025, Tom Bellamy wrote:
+> Our allowance for this scope was capped at $40,916.28. Please keep the change under that figure
+> and confirm schedule by May 28, 2025.

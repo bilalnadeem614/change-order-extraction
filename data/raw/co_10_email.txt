@@ -1,0 +1,27 @@
+From: Ellen Frost <ellenfrost@atlaselectriccontrols.example>
+To: Priya Nambiar <priyanambiar@pinecrestdevelopmentcorp.example>
+Date: September 17, 2026, 9:54 AM
+Subject: Change order CO-023 - Maple Ridge Elementary Gym Addition
+
+Hi Priya,
+
+Pricing for change order CO-023 on Maple Ridge Elementary Gym Addition (owner: Pinecrest Development Corp.) is below.
+Reason: Design error / RFI response
+Scope: This change responds to a design clarification. Work covers upgrade light fixtures to LED and supervision labor.
+
+Item | Qty | Unit | Unit price | Amount
+Upgrade light fixtures to LED | 77 | EA | $121.36 | $9,344.72
+Supervision labor | 64 | HR | $57.46 | $3,677.44
+Drywall patch and finish | 650 | SF | $5.48 | $3,562.00
+
+Subtotal: $16,584.16
+Markup (10%): $1,658.42
+Total change: $18,242.58
+
+Schedule impact: 7 calendar days.
+Contract sum moves from $5,342,500.00 to $5,360,742.58.
+Status: Executed - need your sign-off to proceed.
+
+Thanks,
+Ellen Frost
+Project Manager, Atlas Electric & Controls

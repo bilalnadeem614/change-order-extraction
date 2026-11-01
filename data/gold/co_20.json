@@ -1,0 +1,63 @@
+{
+  "co_number": "PCO-39",
+  "co_date": "2026-05-04",
+  "project_name": "Oakwood Senior Living Wing B",
+  "owner": "Summit Peak Brewing Co.",
+  "contractor": "Blue Ridge Concrete Works",
+  "reason": "Owner-requested scope change",
+  "description": "At the owner's request, additional scope was added. Work covers excavation for unforeseen rock and frame additional interior partition. Credits are applied for omitted work.",
+  "line_items": [
+    {
+      "description": "Excavation for unforeseen rock",
+      "quantity": 39.0,
+      "unit": "CY",
+      "unit_price": 133.93,
+      "amount": 5223.27
+    },
+    {
+      "description": "Frame additional interior partition",
+      "quantity": 182.0,
+      "unit": "LF",
+      "unit_price": 29.66,
+      "amount": 5398.12
+    },
+    {
+      "description": "Relocate 20A electrical circuits",
+      "quantity": 10.0,
+      "unit": "EA",
+      "unit_price": 219.13,
+      "amount": 2191.3
+    },
+    {
+      "description": "Sprinkler head relocation",
+      "quantity": 15.0,
+      "unit": "EA",
+      "unit_price": 207.14,
+      "amount": 3107.1
+    },
+    {
+      "description": "Rebar, #5 grade 60",
+      "quantity": 3223.0,
+      "unit": "LB",
+      "unit_price": 1.02,
+      "amount": 3287.46
+    },
+    {
+      "description": "Credit: delete interior doors",
+      "quantity": 6.0,
+      "unit": "EA",
+      "unit_price": 784.39,
+      "amount": -4706.34
+    }
+  ],
+  "subtotal": 14500.91,
+  "markup_percent": 15.0,
+  "markup_amount": 2175.14,
+  "total": 16676.05,
+  "currency": "USD",
+  "schedule_impact_days": 10,
+  "original_contract_sum": 4852000.0,
+  "new_contract_sum": 4868676.05,
+  "status": "Executed",
+  "signed": true
+}

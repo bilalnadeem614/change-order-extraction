@@ -1,0 +1,49 @@
+{
+  "co_number": "CO-014",
+  "co_date": "2026-02-05",
+  "project_name": "Oakwood Senior Living Wing B",
+  "owner": "Harborview Health Partners",
+  "contractor": "Keystone Mechanical Co.",
+  "reason": "Design error / RFI response",
+  "description": "This change responds to a design clarification. Work covers sprinkler head relocation and upgrade light fixtures to LED. Credits are applied for omitted work.",
+  "line_items": [
+    {
+      "description": "Sprinkler head relocation",
+      "quantity": 7.0,
+      "unit": "EA",
+      "unit_price": 116.06,
+      "amount": 812.42
+    },
+    {
+      "description": "Upgrade light fixtures to LED",
+      "quantity": 51.0,
+      "unit": "EA",
+      "unit_price": 306.46,
+      "amount": 15629.46
+    },
+    {
+      "description": "Additional 4\" concrete slab pour",
+      "quantity": 829.0,
+      "unit": "SF",
+      "unit_price": 8.76,
+      "amount": 7262.04
+    },
+    {
+      "description": "Credit: delete interior doors",
+      "quantity": 7.0,
+      "unit": "EA",
+      "unit_price": 459.46,
+      "amount": -3216.22
+    }
+  ],
+  "subtotal": 20487.7,
+  "markup_percent": 10.0,
+  "markup_amount": 2048.77,
+  "total": 22536.47,
+  "currency": "USD",
+  "schedule_impact_days": 0,
+  "original_contract_sum": 5999500.0,
+  "new_contract_sum": 6022036.47,
+  "status": "Executed",
+  "signed": true
+}

@@ -1,0 +1,32 @@
+From: Tom Bellamy <tombellamy@redwoodgeneralcontractors.example>
+To: Jorge Castillo <jorgecastillo@northgatelogisticsinc.example>
+Date: May 14, 2025, 9:37 AM
+Subject: Change order 046 - Summit Peak Brewery Buildout
+
+Hi Jorge,
+
+Pricing for change order 046 on Summit Peak Brewery Buildout (owner: Northgate Logistics Inc.) is below.
+Reason: Value engineering
+Scope: The parties agreed to the following value-engineering changes. Work covers excavation for unforeseen rock and drywall patch and finish. Credits are applied for omitted work.
+
+Items:
+- Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50
+- Drywall patch and finish: 363 SF @ $6.92 = $2,511.96
+- Frame additional interior partition: 117 LF @ $42.78 = $5,005.26
+- Crane rental: 4 DAY @ $1,433.66 = $5,734.64
+- Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42
+
+Subtotal: $14,321.94
+Total change: $14,321.94
+
+Schedule impact: 10 calendar days.
+Contract sum moves from $5,261,500.00 to $5,275,821.94.
+Status: Approved - need your sign-off to proceed.
+
+Thanks,
+Tom Bellamy
+Project Manager, Redwood General Contractors
+
+On April 17, 2025, Jorge Castillo wrote:
+> Our allowance for this scope was capped at $39,016.46. Please keep the change under that figure
+> and confirm schedule by May 19, 2025.

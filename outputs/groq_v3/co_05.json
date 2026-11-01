@@ -1,0 +1,256 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_05_no_markup.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-032",
+      "confidence": 1.0,
+      "evidence": "CO #: CO-032",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-12-22",
+      "confidence": 1.0,
+      "evidence": "Date Issued: 22-Dec-2025",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Pinecrest Retail Plaza",
+      "confidence": 1.0,
+      "evidence": "Project Name: Pinecrest Retail Plaza",
+      "flags": []
+    },
+    "owner": {
+      "value": "Cedar Point Holdings LLC",
+      "confidence": 1.0,
+      "evidence": "Owner / Client: Cedar Point Holdings LLC",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Keystone Mechanical Co.",
+      "confidence": 1.0,
+      "evidence": "Contractor: Keystone Mechanical Co.",
+      "flags": []
+    },
+    "reason": {
+      "value": "Unforeseen site condition",
+      "confidence": 1.0,
+      "evidence": "Reason: Unforeseen site condition",
+      "flags": []
+    },
+    "description": {
+      "value": "Conditions found on site differ from the contract documents. Work covers fire-rated door and hardware and upgrade light fixtures to LED.",
+      "confidence": 1.0,
+      "evidence": "Description of Change\nConditions found on site differ from the contract documents. Work covers fire-rated door and hardware and upgrade\nlight fixtures to LED.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 46377.95,
+      "confidence": 1.0,
+      "evidence": "Subtotal $46,377.95",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "markup_amount": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "total": {
+      "value": 46377.95,
+      "confidence": 1.0,
+      "evidence": "Net Change $46,377.95",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 0,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: No change",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 4430500.0,
+      "confidence": 1.0,
+      "evidence": "Contract Sum Prior to This CO: $4,430,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 4476877.95,
+      "confidence": 1.0,
+      "evidence": "Contract Sum Including This CO: $4,476,877.95",
+      "flags": []
+    },
+    "status": {
+      "value": "Approved",
+      "confidence": 1.0,
+      "evidence": "Status: Approved",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "Owner Contractor\nsignature: ______________________ signature: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Fire-rated door and hardware",
+        "confidence": 1.0,
+        "evidence": "1 | Fire-rated door and hardware | 6 | EA | $1,502.46 | $9,014.76",
+        "flags": []
+      },
+      "quantity": {
+        "value": 6.0,
+        "confidence": 1.0,
+        "evidence": "1 | Fire-rated door and hardware | 6 | EA | $1,502.46 | $9,014.76",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "1 | Fire-rated door and hardware | 6 | EA | $1,502.46 | $9,014.76",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1502.46,
+        "confidence": 1.0,
+        "evidence": "1 | Fire-rated door and hardware | 6 | EA | $1,502.46 | $9,014.76",
+        "flags": []
+      },
+      "amount": {
+        "value": 9014.76,
+        "confidence": 1.0,
+        "evidence": "1 | Fire-rated door and hardware | 6 | EA | $1,502.46 | $9,014.76",
+        "flags": []
+      },
+      "evidence": "1 | Fire-rated door and hardware | 6 | EA | $1,502.46 | $9,014.76",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $215.07 | $15,269.97",
+        "flags": []
+      },
+      "quantity": {
+        "value": 71.0,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $215.07 | $15,269.97",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $215.07 | $15,269.97",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 215.07,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $215.07 | $15,269.97",
+        "flags": []
+      },
+      "amount": {
+        "value": 15269.97,
+        "confidence": 1.0,
+        "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $215.07 | $15,269.97",
+        "flags": []
+      },
+      "evidence": "2 | Upgrade light fixtures to LED | 71 | EA | $215.07 | $15,269.97",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Waterproofing membrane",
+        "confidence": 1.0,
+        "evidence": "3 | Waterproofing membrane | 484 | SF | $8.33 | $4,031.72",
+        "flags": []
+      },
+      "quantity": {
+        "value": 484.0,
+        "confidence": 1.0,
+        "evidence": "3 | Waterproofing membrane | 484 | SF | $8.33 | $4,031.72",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "3 | Waterproofing membrane | 484 | SF | $8.33 | $4,031.72",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 8.33,
+        "confidence": 1.0,
+        "evidence": "3 | Waterproofing membrane | 484 | SF | $8.33 | $4,031.72",
+        "flags": []
+      },
+      "amount": {
+        "value": 4031.72,
+        "confidence": 1.0,
+        "evidence": "3 | Waterproofing membrane | 484 | SF | $8.33 | $4,031.72",
+        "flags": []
+      },
+      "evidence": "3 | Waterproofing membrane | 484 | SF | $8.33 | $4,031.72",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Excavation for unforeseen rock",
+        "confidence": 1.0,
+        "evidence": "4 | Excavation for unforeseen rock | 150 | CY | $120.41 | $18,061.50",
+        "flags": []
+      },
+      "quantity": {
+        "value": 150.0,
+        "confidence": 1.0,
+        "evidence": "4 | Excavation for unforeseen rock | 150 | CY | $120.41 | $18,061.50",
+        "flags": []
+      },
+      "unit": {
+        "value": "CY",
+        "confidence": 1.0,
+        "evidence": "4 | Excavation for unforeseen rock | 150 | CY | $120.41 | $18,061.50",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 120.41,
+        "confidence": 1.0,
+        "evidence": "4 | Excavation for unforeseen rock | 150 | CY | $120.41 | $18,061.50",
+        "flags": []
+      },
+      "amount": {
+        "value": 18061.5,
+        "confidence": 1.0,
+        "evidence": "4 | Excavation for unforeseen rock | 150 | CY | $120.41 | $18,061.50",
+        "flags": []
+      },
+      "evidence": "4 | Excavation for unforeseen rock | 150 | CY | $120.41 | $18,061.50",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": false,
+  "review_reasons": [],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

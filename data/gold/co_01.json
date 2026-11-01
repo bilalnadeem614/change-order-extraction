@@ -1,0 +1,42 @@
+{
+  "co_number": "CO-016",
+  "co_date": "2025-11-04",
+  "project_name": "Maple Ridge Elementary Gym Addition",
+  "owner": "Pinecrest Development Corp.",
+  "contractor": "Atlas Electric & Controls",
+  "reason": "Code compliance requirement",
+  "description": "The inspector required changes for code compliance. Work covers supervision labor and upgrade light fixtures to LED.",
+  "line_items": [
+    {
+      "description": "Supervision labor",
+      "quantity": 52.0,
+      "unit": "HR",
+      "unit_price": 57.68,
+      "amount": 2999.36
+    },
+    {
+      "description": "Upgrade light fixtures to LED",
+      "quantity": 71.0,
+      "unit": "EA",
+      "unit_price": 219.93,
+      "amount": 15615.03
+    },
+    {
+      "description": "Crane rental",
+      "quantity": 3.0,
+      "unit": "DAY",
+      "unit_price": 2547.33,
+      "amount": 7641.99
+    }
+  ],
+  "subtotal": 26256.38,
+  "markup_percent": 10.0,
+  "markup_amount": 2625.64,
+  "total": 28882.02,
+  "currency": "USD",
+  "schedule_impact_days": 14,
+  "original_contract_sum": 2546500.0,
+  "new_contract_sum": 2575382.02,
+  "status": "Executed",
+  "signed": true
+}

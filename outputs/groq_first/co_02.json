@@ -1,0 +1,295 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_02_clean_form.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "CO-013",
+      "confidence": 1.0,
+      "evidence": "Change Order CO-013",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-04-06",
+      "confidence": 1.0,
+      "evidence": "Change Order CO-013 Date: 2026-04-06",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Cedar Point Apartments Phase 2",
+      "confidence": 1.0,
+      "evidence": "Project: Cedar Point Apartments Phase 2",
+      "flags": []
+    },
+    "owner": {
+      "value": "Lakeshore Township",
+      "confidence": 1.0,
+      "evidence": "Owner: Lakeshore Township",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Brightline Construction Inc.",
+      "confidence": 1.0,
+      "evidence": "Contractor: Brightline Construction Inc.",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 0.191,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field",
+        "passes_disagree"
+      ]
+    },
+    "description": {
+      "value": "The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and supervision labor.",
+      "confidence": 1.0,
+      "evidence": "The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and supervision labor.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 18803.27,
+      "confidence": 1.0,
+      "evidence": "Subtotal $18,803.27",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 15.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (15%) $2,820.49",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 2820.49,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (15%) $2,820.49",
+      "flags": []
+    },
+    "total": {
+      "value": 21623.76,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER $21,623.76",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 5,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 5 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 256500.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: $256,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 278123.76,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: $278,123.76",
+      "flags": []
+    },
+    "status": {
+      "value": "Executed",
+      "confidence": 1.0,
+      "evidence": "Status: Executed",
+      "flags": []
+    },
+    "signed": {
+      "value": true,
+      "confidence": 1.0,
+      "evidence": "signature: /s/ Priya Nambiar",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "1 Upgrade light fixtures to LED 34 EA $137.32 $4,668.88",
+        "flags": []
+      },
+      "quantity": {
+        "value": 34.0,
+        "confidence": 1.0,
+        "evidence": "1 Upgrade light fixtures to LED 34 EA $137.32 $4,668.88",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "1 Upgrade light fixtures to LED 34 EA $137.32 $4,668.88",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 137.32,
+        "confidence": 1.0,
+        "evidence": "1 Upgrade light fixtures to LED 34 EA $137.32 $4,668.88",
+        "flags": []
+      },
+      "amount": {
+        "value": 4668.88,
+        "confidence": 1.0,
+        "evidence": "1 Upgrade light fixtures to LED 34 EA $137.32 $4,668.88",
+        "flags": []
+      },
+      "evidence": "1 Upgrade light fixtures to LED 34 EA $137.32 $4,668.88",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Supervision labor",
+        "confidence": 1.0,
+        "evidence": "2 Supervision labor 21 HR $56.24 $1,181.04",
+        "flags": []
+      },
+      "quantity": {
+        "value": 21.0,
+        "confidence": 1.0,
+        "evidence": "2 Supervision labor 21 HR $56.24 $1,181.04",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "2 Supervision labor 21 HR $56.24 $1,181.04",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 56.24,
+        "confidence": 1.0,
+        "evidence": "2 Supervision labor 21 HR $56.24 $1,181.04",
+        "flags": []
+      },
+      "amount": {
+        "value": 1181.04,
+        "confidence": 1.0,
+        "evidence": "2 Supervision labor 21 HR $56.24 $1,181.04",
+        "flags": []
+      },
+      "evidence": "2 Supervision labor 21 HR $56.24 $1,181.04",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Interior paint, two coats",
+        "confidence": 1.0,
+        "evidence": "3 Interior paint, two coats 3,215 SF $2.47 $7,941.05",
+        "flags": []
+      },
+      "quantity": {
+        "value": 3215.0,
+        "confidence": 1.0,
+        "evidence": "3 Interior paint, two coats 3,215 SF $2.47 $7,941.05",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "3 Interior paint, two coats 3,215 SF $2.47 $7,941.05",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2.47,
+        "confidence": 1.0,
+        "evidence": "3 Interior paint, two coats 3,215 SF $2.47 $7,941.05",
+        "flags": []
+      },
+      "amount": {
+        "value": 7941.05,
+        "confidence": 1.0,
+        "evidence": "3 Interior paint, two coats 3,215 SF $2.47 $7,941.05",
+        "flags": []
+      },
+      "evidence": "3 Interior paint, two coats 3,215 SF $2.47 $7,941.05",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation",
+        "confidence": 1.0,
+        "evidence": "4 Sprinkler head relocation 20 EA $134.84 $2,696.80",
+        "flags": []
+      },
+      "quantity": {
+        "value": 20.0,
+        "confidence": 1.0,
+        "evidence": "4 Sprinkler head relocation 20 EA $134.84 $2,696.80",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "4 Sprinkler head relocation 20 EA $134.84 $2,696.80",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 134.84,
+        "confidence": 1.0,
+        "evidence": "4 Sprinkler head relocation 20 EA $134.84 $2,696.80",
+        "flags": []
+      },
+      "amount": {
+        "value": 2696.8,
+        "confidence": 1.0,
+        "evidence": "4 Sprinkler head relocation 20 EA $134.84 $2,696.80",
+        "flags": []
+      },
+      "evidence": "4 Sprinkler head relocation 20 EA $134.84 $2,696.80",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Drywall patch and finish",
+        "confidence": 1.0,
+        "evidence": "5 Drywall patch and finish 550 SF $4.21 $2,315.50",
+        "flags": []
+      },
+      "quantity": {
+        "value": 550.0,
+        "confidence": 1.0,
+        "evidence": "5 Drywall patch and finish 550 SF $4.21 $2,315.50",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "5 Drywall patch and finish 550 SF $4.21 $2,315.50",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 4.21,
+        "confidence": 1.0,
+        "evidence": "5 Drywall patch and finish 550 SF $4.21 $2,315.50",
+        "flags": []
+      },
+      "amount": {
+        "value": 2315.5,
+        "confidence": 1.0,
+        "evidence": "5 Drywall patch and finish 550 SF $4.21 $2,315.50",
+        "flags": []
+      },
+      "evidence": "5 Drywall patch and finish 550 SF $4.21 $2,315.50",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "reason (0.191): possible_missed_field, passes_disagree"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

@@ -1,0 +1,256 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_19_letter.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "038",
+      "confidence": 1.0,
+      "evidence": "Change Order 038",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2026-05-29",
+      "confidence": 1.0,
+      "evidence": "May 29, 2026",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Maple Ridge Elementary Gym Addition",
+      "confidence": 1.0,
+      "evidence": "Maple Ridge Elementary Gym Addition",
+      "flags": []
+    },
+    "owner": {
+      "value": "City of Riverside",
+      "confidence": 1.0,
+      "evidence": "City of Riverside",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Redwood General Contractors",
+      "confidence": 1.0,
+      "evidence": "Redwood General Contractors",
+      "flags": []
+    },
+    "reason": {
+      "value": "Owner-requested scope change",
+      "confidence": 1.0,
+      "evidence": "Reason for change: Owner-requested scope change.",
+      "flags": []
+    },
+    "description": {
+      "value": "Work covers rebar, #5 grade 60 and fire-rated door and hardware.",
+      "confidence": 1.0,
+      "evidence": "Work covers rebar, #5 grade 60 and fire-rated door and hardware.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 15626.37,
+      "confidence": 1.0,
+      "evidence": "The subtotal is $15,626.37.",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "With 10% overhead and profit",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1562.64,
+      "confidence": 1.0,
+      "evidence": "($1,562.64)",
+      "flags": []
+    },
+    "total": {
+      "value": 17189.01,
+      "confidence": 1.0,
+      "evidence": "the total of this change order comes to $17,189.01.",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 3,
+      "confidence": 1.0,
+      "evidence": "Change in contract time: 3 calendar days.",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "status": {
+      "value": "Pending",
+      "confidence": 1.0,
+      "evidence": "Current status: Pending.",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "Owner acceptance: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Rebar, #5 grade 60",
+        "confidence": 1.0,
+        "evidence": "1 | Rebar, #5 grade 60 | 2,181 | LB | $1.25 | $2,726.25",
+        "flags": []
+      },
+      "quantity": {
+        "value": 2181.0,
+        "confidence": 1.0,
+        "evidence": "1 | Rebar, #5 grade 60 | 2,181 | LB | $1.25 | $2,726.25",
+        "flags": []
+      },
+      "unit": {
+        "value": "LB",
+        "confidence": 1.0,
+        "evidence": "1 | Rebar, #5 grade 60 | 2,181 | LB | $1.25 | $2,726.25",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.25,
+        "confidence": 1.0,
+        "evidence": "1 | Rebar, #5 grade 60 | 2,181 | LB | $1.25 | $2,726.25",
+        "flags": []
+      },
+      "amount": {
+        "value": 2726.25,
+        "confidence": 1.0,
+        "evidence": "1 | Rebar, #5 grade 60 | 2,181 | LB | $1.25 | $2,726.25",
+        "flags": []
+      },
+      "evidence": "1 | Rebar, #5 grade 60 | 2,181 | LB | $1.25 | $2,726.25",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Fire-rated door and hardware",
+        "confidence": 1.0,
+        "evidence": "2 | Fire-rated door and hardware | 5 | EA | $1,803.67 | $9,018.35",
+        "flags": []
+      },
+      "quantity": {
+        "value": 5.0,
+        "confidence": 1.0,
+        "evidence": "2 | Fire-rated door and hardware | 5 | EA | $1,803.67 | $9,018.35",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "2 | Fire-rated door and hardware | 5 | EA | $1,803.67 | $9,018.35",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1803.67,
+        "confidence": 1.0,
+        "evidence": "2 | Fire-rated door and hardware | 5 | EA | $1,803.67 | $9,018.35",
+        "flags": []
+      },
+      "amount": {
+        "value": 9018.35,
+        "confidence": 1.0,
+        "evidence": "2 | Fire-rated door and hardware | 5 | EA | $1,803.67 | $9,018.35",
+        "flags": []
+      },
+      "evidence": "2 | Fire-rated door and hardware | 5 | EA | $1,803.67 | $9,018.35",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Frame additional interior partition",
+        "confidence": 1.0,
+        "evidence": "3 | Frame additional interior partition | 35 | LF | $40.80 | $1,428.00",
+        "flags": []
+      },
+      "quantity": {
+        "value": 35.0,
+        "confidence": 1.0,
+        "evidence": "3 | Frame additional interior partition | 35 | LF | $40.80 | $1,428.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "3 | Frame additional interior partition | 35 | LF | $40.80 | $1,428.00",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 40.8,
+        "confidence": 1.0,
+        "evidence": "3 | Frame additional interior partition | 35 | LF | $40.80 | $1,428.00",
+        "flags": []
+      },
+      "amount": {
+        "value": 1428.0,
+        "confidence": 1.0,
+        "evidence": "3 | Frame additional interior partition | 35 | LF | $40.80 | $1,428.00",
+        "flags": []
+      },
+      "evidence": "3 | Frame additional interior partition | 35 | LF | $40.80 | $1,428.00",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Crane rental",
+        "confidence": 1.0,
+        "evidence": "4 | Crane rental | 1 | DAY | $2,453.77 | $2,453.77",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 1.0,
+        "evidence": "4 | Crane rental | 1 | DAY | $2,453.77 | $2,453.77",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "4 | Crane rental | 1 | DAY | $2,453.77 | $2,453.77",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2453.77,
+        "confidence": 1.0,
+        "evidence": "4 | Crane rental | 1 | DAY | $2,453.77 | $2,453.77",
+        "flags": []
+      },
+      "amount": {
+        "value": 2453.77,
+        "confidence": 1.0,
+        "evidence": "4 | Crane rental | 1 | DAY | $2,453.77 | $2,453.77",
+        "flags": []
+      },
+      "evidence": "4 | Crane rental | 1 | DAY | $2,453.77 | $2,453.77",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": false,
+  "review_reasons": [],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

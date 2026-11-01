@@ -1,0 +1,260 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_12_email_thread.txt",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "PCO-43",
+      "confidence": 1.0,
+      "evidence": "Subject: Change order PCO-43 - Northgate Distribution Center",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-05-23",
+      "confidence": 1.0,
+      "evidence": "Date: May 23, 2025, 9:54 AM",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Northgate Distribution Center",
+      "confidence": 1.0,
+      "evidence": "Subject: Change order PCO-43 - Northgate Distribution Center",
+      "flags": []
+    },
+    "owner": {
+      "value": "Lakeshore Township",
+      "confidence": 1.0,
+      "evidence": "(owner: Lakeshore Township)",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Redwood General Contractors",
+      "confidence": 1.0,
+      "evidence": "Project Manager, Redwood General Contractors",
+      "flags": []
+    },
+    "reason": {
+      "value": "Value engineering",
+      "confidence": 1.0,
+      "evidence": "Reason: Value engineering",
+      "flags": []
+    },
+    "description": {
+      "value": "The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and sprinkler head relocation.",
+      "confidence": 0.45,
+      "evidence": "Scope: The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and sprinkler head relocation.",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "subtotal": {
+      "value": 25946.92,
+      "confidence": 1.0,
+      "evidence": "Subtotal: $25,946.92",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 15.0,
+      "confidence": 1.0,
+      "evidence": "Markup (15%): $3,892.04",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 3892.04,
+      "confidence": 1.0,
+      "evidence": "Markup (15%): $3,892.04",
+      "flags": []
+    },
+    "total": {
+      "value": 29838.96,
+      "confidence": 1.0,
+      "evidence": "Total change: $29,838.96",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "Subtotal: $25,946.92",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 7,
+      "confidence": 1.0,
+      "evidence": "Schedule impact: 7 calendar days.",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5892500.0,
+      "confidence": 1.0,
+      "evidence": "Contract sum moves from $5,892,500.00 to $5,922,338.96.",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 5922338.96,
+      "confidence": 1.0,
+      "evidence": "Contract sum moves from $5,892,500.00 to $5,922,338.96.",
+      "flags": []
+    },
+    "status": {
+      "value": "Approved - need your sign-off to proceed.",
+      "confidence": 1.0,
+      "evidence": "Status: Approved - need your sign-off to proceed.",
+      "flags": []
+    },
+    "signed": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Upgrade light fixtures to LED",
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64",
+        "flags": []
+      },
+      "quantity": {
+        "value": 76.0,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 159.39,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64",
+        "flags": []
+      },
+      "amount": {
+        "value": 12113.64,
+        "confidence": 1.0,
+        "evidence": "Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64",
+        "flags": []
+      },
+      "evidence": "Upgrade light fixtures to LED: 76 EA @ $159.39 = $12,113.64",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation",
+        "confidence": 1.0,
+        "evidence": "Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73",
+        "flags": []
+      },
+      "quantity": {
+        "value": 31.0,
+        "confidence": 1.0,
+        "evidence": "Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 177.83,
+        "confidence": 1.0,
+        "evidence": "Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73",
+        "flags": []
+      },
+      "amount": {
+        "value": 5512.73,
+        "confidence": 1.0,
+        "evidence": "Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73",
+        "flags": []
+      },
+      "evidence": "Sprinkler head relocation: 31 EA @ $177.83 = $5,512.73",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Interior paint, two coats",
+        "confidence": 1.0,
+        "evidence": "Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35",
+        "flags": []
+      },
+      "quantity": {
+        "value": 2279.0,
+        "confidence": 1.0,
+        "evidence": "Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2.65,
+        "confidence": 1.0,
+        "evidence": "Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35",
+        "flags": []
+      },
+      "amount": {
+        "value": 6039.35,
+        "confidence": 1.0,
+        "evidence": "Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35",
+        "flags": []
+      },
+      "evidence": "Interior paint, two coats: 2,279 SF @ $2.65 = $6,039.35",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits",
+        "confidence": 1.0,
+        "evidence": "Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20",
+        "flags": []
+      },
+      "quantity": {
+        "value": 8.0,
+        "confidence": 1.0,
+        "evidence": "Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 285.15,
+        "confidence": 1.0,
+        "evidence": "Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20",
+        "flags": []
+      },
+      "amount": {
+        "value": 2281.2,
+        "confidence": 1.0,
+        "evidence": "Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20",
+        "flags": []
+      },
+      "evidence": "Relocate 20A electrical circuits: 8 EA @ $285.15 = $2,281.20",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "description (0.45): passes_disagree"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

@@ -1,0 +1,9 @@
+{
+  "provider": "groq",
+  "model": null,
+  "passes": 2,
+  "ok": 15,
+  "failed": 1,
+  "seconds": 677.6,
+  "simulated": false
+}

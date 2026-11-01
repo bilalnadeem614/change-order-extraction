@@ -1,0 +1,274 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_17_eu_format.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "PCO-07",
+      "confidence": 1.0,
+      "evidence": "Change Order PCO-07",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-07-16",
+      "confidence": 1.0,
+      "evidence": "Change Order PCO-07 Date: 16 July 2025",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Lakeshore Fire Station No. 7",
+      "confidence": 1.0,
+      "evidence": "Project: Lakeshore Fire Station No. 7",
+      "flags": []
+    },
+    "owner": {
+      "value": "Lakeshore Township",
+      "confidence": 1.0,
+      "evidence": "Owner: Lakeshore Township",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Ironclad Builders LLC",
+      "confidence": 1.0,
+      "evidence": "Contractor: Ironclad Builders LLC",
+      "flags": []
+    },
+    "reason": {
+      "value": "Owner-requested scope change",
+      "confidence": 1.0,
+      "evidence": "Reason for Owner-requested scope change",
+      "flags": []
+    },
+    "description": {
+      "value": "At the owner's request, additional scope was added. Work covers supervision labor and crane rental.",
+      "confidence": 1.0,
+      "evidence": "At the owner's request, additional scope was added. Work covers supervision labor and crane rental.",
+      "flags": []
+    },
+    "subtotal": {
+      "value": 11535.29,
+      "confidence": 1.0,
+      "evidence": "Subtotal 11.535,29 €",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1153.53,
+      "confidence": 1.0,
+      "evidence": "Overhead & Profit (10%) 1.153,53 €",
+      "flags": []
+    },
+    "total": {
+      "value": 12688.82,
+      "confidence": 1.0,
+      "evidence": "TOTAL THIS CHANGE ORDER 12.688,82 €",
+      "flags": []
+    },
+    "currency": {
+      "value": "EUR",
+      "confidence": 1.0,
+      "evidence": "All amounts are stated in EUR.",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 14,
+      "confidence": 1.0,
+      "evidence": "Change in Contract Time: 14 calendar days",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 2179500.0,
+      "confidence": 1.0,
+      "evidence": "Original Contract Sum: 2.179.500,00 €",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 2192188.82,
+      "confidence": 1.0,
+      "evidence": "Revised Contract Sum: 2.192.188,82 €",
+      "flags": []
+    },
+    "status": {
+      "value": "Pending",
+      "confidence": 1.0,
+      "evidence": "Status: Pending",
+      "flags": []
+    },
+    "signed": {
+      "value": false,
+      "confidence": 1.0,
+      "evidence": "signature: ______________________",
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Supervision labor",
+        "confidence": 1.0,
+        "evidence": "1 Supervision labor 20 HR 78,13 € 1.562,60 €",
+        "flags": []
+      },
+      "quantity": {
+        "value": 20.0,
+        "confidence": 1.0,
+        "evidence": "1 Supervision labor 20 HR 78,13 € 1.562,60 €",
+        "flags": []
+      },
+      "unit": {
+        "value": "HR",
+        "confidence": 1.0,
+        "evidence": "1 Supervision labor 20 HR 78,13 € 1.562,60 €",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 78.13,
+        "confidence": 1.0,
+        "evidence": "1 Supervision labor 20 HR 78,13 € 1.562,60 €",
+        "flags": []
+      },
+      "amount": {
+        "value": 1562.6,
+        "confidence": 1.0,
+        "evidence": "1 Supervision labor 20 HR 78,13 € 1.562,60 €",
+        "flags": []
+      },
+      "evidence": "1 Supervision labor 20 HR 78,13 € 1.562,60 €",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Crane rental",
+        "confidence": 1.0,
+        "evidence": "2 Crane rental 2 DAY 2.379,56 € 4.759,12 €",
+        "flags": []
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 1.0,
+        "evidence": "2 Crane rental 2 DAY 2.379,56 € 4.759,12 €",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "2 Crane rental 2 DAY 2.379,56 € 4.759,12 €",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2379.56,
+        "confidence": 1.0,
+        "evidence": "2 Crane rental 2 DAY 2.379,56 € 4.759,12 €",
+        "flags": []
+      },
+      "amount": {
+        "value": 4759.12,
+        "confidence": 1.0,
+        "evidence": "2 Crane rental 2 DAY 2.379,56 € 4.759,12 €",
+        "flags": []
+      },
+      "evidence": "2 Crane rental 2 DAY 2.379,56 € 4.759,12 €",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Sprinkler head relocation",
+        "confidence": 1.0,
+        "evidence": "3 Sprinkler head relocation 18 EA 128,64 € 2.315,52 €",
+        "flags": []
+      },
+      "quantity": {
+        "value": 18.0,
+        "confidence": 1.0,
+        "evidence": "3 Sprinkler head relocation 18 EA 128,64 € 2.315,52 €",
+        "flags": []
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 1.0,
+        "evidence": "3 Sprinkler head relocation 18 EA 128,64 € 2.315,52 €",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 128.64,
+        "confidence": 1.0,
+        "evidence": "3 Sprinkler head relocation 18 EA 128,64 € 2.315,52 €",
+        "flags": []
+      },
+      "amount": {
+        "value": 2315.52,
+        "confidence": 1.0,
+        "evidence": "3 Sprinkler head relocation 18 EA 128,64 € 2.315,52 €",
+        "flags": []
+      },
+      "evidence": "3 Sprinkler head relocation 18 EA 128,64 € 2.315,52 €",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Rebar, #5 grade",
+        "confidence": 1.0,
+        "evidence": "4 Rebar, #5 grade 60 1.945 LB 1,49 € 2.898,05 €",
+        "flags": []
+      },
+      "quantity": {
+        "value": 60.0,
+        "confidence": 0.55,
+        "evidence": "4 Rebar, #5 grade 60 1.945 LB 1,49 € 2.898,05 €",
+        "flags": [
+          "qty_price_mismatch"
+        ]
+      },
+      "unit": {
+        "value": "LB",
+        "confidence": 1.0,
+        "evidence": "4 Rebar, #5 grade 60 1.945 LB 1,49 € 2.898,05 €",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1.49,
+        "confidence": 0.55,
+        "evidence": "4 Rebar, #5 grade 60 1.945 LB 1,49 € 2.898,05 €",
+        "flags": [
+          "qty_price_mismatch"
+        ]
+      },
+      "amount": {
+        "value": 2898.05,
+        "confidence": 0.55,
+        "evidence": "4 Rebar, #5 grade 60 1.945 LB 1,49 € 2.898,05 €",
+        "flags": [
+          "qty_price_mismatch"
+        ]
+      },
+      "evidence": "4 Rebar, #5 grade 60 1.945 LB 1,49 € 2.898,05 €",
+      "confidence": 0.55
+    }
+  ],
+  "issues": [
+    {
+      "code": "qty_price_mismatch",
+      "severity": "error",
+      "fields": [
+        "line_items[3]"
+      ],
+      "message": "item 4: 60.0 x 1.49 = 89.4, but amount is 2898.05"
+    }
+  ],
+  "needs_review": true,
+  "review_reasons": [
+    "line_items[3] (0.55): quantity, unit_price, amount",
+    "validation: item 4: 60.0 x 1.49 = 89.4, but amount is 2898.05"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

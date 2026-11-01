@@ -1,0 +1,42 @@
+{
+  "co_number": "CO-006",
+  "co_date": "2026-04-26",
+  "project_name": "Oakwood Senior Living Wing B",
+  "owner": "Westfield Capital Partners",
+  "contractor": "Ironclad Builders LLC",
+  "reason": "Unforeseen site condition",
+  "description": "Conditions found on site differ from the contract documents. Work covers crane rental and frame additional interior partition. Credits are applied for omitted work.",
+  "line_items": [
+    {
+      "description": "Crane rental",
+      "quantity": 4.0,
+      "unit": "DAY",
+      "unit_price": 1637.66,
+      "amount": 6550.64
+    },
+    {
+      "description": "Frame additional interior partition",
+      "quantity": 35.0,
+      "unit": "LF",
+      "unit_price": 46.48,
+      "amount": 1626.8
+    },
+    {
+      "description": "Credit: omit decorative wall trim",
+      "quantity": 126.0,
+      "unit": "LF",
+      "unit_price": 17.24,
+      "amount": -2172.24
+    }
+  ],
+  "subtotal": 6005.2,
+  "markup_percent": 10.0,
+  "markup_amount": 600.52,
+  "total": 6605.72,
+  "currency": "USD",
+  "schedule_impact_days": 0,
+  "original_contract_sum": 5882000.0,
+  "new_contract_sum": 5888605.72,
+  "status": "Pending",
+  "signed": false
+}

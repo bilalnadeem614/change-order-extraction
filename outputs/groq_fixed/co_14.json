@@ -1,0 +1,385 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_14_scan_good.pdf",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "039",
+      "confidence": 0.656,
+      "evidence": "Change Order 039",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "co_date": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "project_name": {
+      "value": "Northgate Distribution Center",
+      "confidence": 0.968,
+      "evidence": "Project: Northgate Distribution Center",
+      "flags": []
+    },
+    "owner": {
+      "value": "Summit Peak Brewing Co.",
+      "confidence": 0.381,
+      "evidence": "Owner: Summit Peak Brewing Co.",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "contractor": {
+      "value": "Redwood General Contractors",
+      "confidence": 0.855,
+      "evidence": "Redwood General Contractors",
+      "flags": []
+    },
+    "reason": {
+      "value": "Design error / RFI response",
+      "confidence": 0.387,
+      "evidence": "Reason for Design error / RFI response",
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "description": {
+      "value": null,
+      "confidence": 0.382,
+      "evidence": null,
+      "flags": [
+        "passes_disagree"
+      ]
+    },
+    "subtotal": {
+      "value": 18804.19,
+      "confidence": 0.165,
+      "evidence": "Subtotal $18,804.19",
+      "flags": [
+        "evidence_fuzzy",
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "markup_percent": {
+      "value": 10.0,
+      "confidence": 0.688,
+      "evidence": "Overhead & Profit(10%)",
+      "flags": []
+    },
+    "markup_amount": {
+      "value": 1880.42,
+      "confidence": 0.688,
+      "evidence": "Overhead & Profit(10%) = © © $1,880.42",
+      "flags": []
+    },
+    "total": {
+      "value": 20684.61,
+      "confidence": 0.871,
+      "evidence": "TOTAL THIS CHANGE ORDER — - $20,684.61",
+      "flags": [
+        "evidence_fuzzy"
+      ]
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.045,
+      "evidence": "$ symbols used",
+      "flags": [
+        "evidence_absent",
+        "low_ocr_confidence",
+        "passes_disagree"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 0,
+      "confidence": 0.701,
+      "evidence": "Change in Contract Time: - \"No change",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5132500.0,
+      "confidence": 0.06,
+      "evidence": "Original ContractSum: = = ==——_—«$5, 132,500.00",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence"
+      ]
+    },
+    "new_contract_sum": {
+      "value": 5153184.61,
+      "confidence": 0.194,
+      "evidence": "Revised.Contract Sum: ee $5,153,184. 61.",
+      "flags": [
+        "value_not_in_evidence",
+        "low_ocr_confidence"
+      ]
+    },
+    "status": {
+      "value": "Executed",
+      "confidence": 0.623,
+      "evidence": "Status: Rhy - Executed",
+      "flags": [
+        "low_ocr_confidence"
+      ]
+    },
+    "signed": {
+      "value": true,
+      "confidence": 0.818,
+      "evidence": "owner signature: /s/ Marcus Ortega",
+      "flags": [
+        "evidence_fuzzy"
+      ]
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "supply duct section",
+        "confidence": 0.227,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "value_spans_lines",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": 79.0,
+        "confidence": 0.252,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 0.252,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": 58.62,
+        "confidence": 0.252,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 4630.98,
+        "confidence": 0.252,
+        "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "1 a supply duet section eee fe ee 79 LF is Fou * $58.62 | : $4,630.98",
+      "confidence": 0.227
+    },
+    {
+      "description": {
+        "value": "Rebar, #5 grade 60",
+        "confidence": 0.09,
+        "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": 1462.0,
+        "confidence": 0.09,
+        "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 0.382,
+        "evidence": null,
+        "flags": [
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 1374.28,
+        "confidence": 0.027,
+        "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+        "flags": [
+          "value_not_in_evidence",
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "Rebar, #5 grade 60 fy 1,462 | Bo toe. woe $1, 374.28",
+      "confidence": 0.027
+    },
+    {
+      "description": {
+        "value": "Relocate 20A electrical circuits",
+        "confidence": 0.292,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": 15.0,
+        "confidence": 0.292,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": "EA",
+        "confidence": 0.292,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": 385.47,
+        "confidence": 0.292,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 5782.05,
+        "confidence": 0.292,
+        "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "Relocate 20A electrical circuits Rise 15 | EA ee $385.47 |. $5,782.05",
+      "confidence": 0.292
+    },
+    {
+      "description": {
+        "value": "Additional 4\" concrete slab pour Nicaea",
+        "confidence": 0.295,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "quantity": {
+        "value": 1014.0,
+        "confidence": 0.295,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 0.295,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "unit_price": {
+        "value": 6.92,
+        "confidence": 0.295,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "amount": {
+        "value": 7016.88,
+        "confidence": 0.295,
+        "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+        "flags": [
+          "low_ocr_confidence",
+          "passes_disagree",
+          "item_missing_in_other_pass"
+        ]
+      },
+      "evidence": "Additional 4\" concrete slab pour Nicaea | 1,014 SF | $6.92 | _ + $7,016.88",
+      "confidence": 0.295
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "co_number (0.656): low_ocr_confidence",
+    "co_date (0.425): possible_missed_field",
+    "owner (0.381): passes_disagree",
+    "reason (0.387): passes_disagree",
+    "description (0.382): passes_disagree",
+    "subtotal (0.165): evidence_fuzzy, low_ocr_confidence, passes_disagree",
+    "markup_percent (0.688): low confidence",
+    "markup_amount (0.688): low confidence",
+    "currency (0.045): evidence_absent, low_ocr_confidence, passes_disagree",
+    "original_contract_sum (0.06): value_not_in_evidence, low_ocr_confidence",
+    "new_contract_sum (0.194): value_not_in_evidence, low_ocr_confidence",
+    "status (0.623): low_ocr_confidence",
+    "line_items[0] (0.227): description, quantity, unit, unit_price, amount",
+    "line_items[1] (0.027): description, quantity, unit, unit_price, amount",
+    "line_items[2] (0.292): description, quantity, unit, unit_price, amount",
+    "line_items[3] (0.295): description, quantity, unit, unit_price, amount"
+  ],
+  "ingest": {
+    "used_ocr": true,
+    "mean_ocr_conf": 57.991189427312776,
+    "warnings": [
+      "OCR used on page(s) [1]"
+    ]
+  },
+  "notes": []
+}

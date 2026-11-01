@@ -1,0 +1,56 @@
+{
+  "co_number": "046",
+  "co_date": "2025-05-14",
+  "project_name": "Summit Peak Brewery Buildout",
+  "owner": "Northgate Logistics Inc.",
+  "contractor": "Redwood General Contractors",
+  "reason": "Value engineering",
+  "description": "The parties agreed to the following value-engineering changes. Work covers excavation for unforeseen rock and drywall patch and finish. Credits are applied for omitted work.",
+  "line_items": [
+    {
+      "description": "Excavation for unforeseen rock",
+      "quantity": 45.0,
+      "unit": "CY",
+      "unit_price": 72.7,
+      "amount": 3271.5
+    },
+    {
+      "description": "Drywall patch and finish",
+      "quantity": 363.0,
+      "unit": "SF",
+      "unit_price": 6.92,
+      "amount": 2511.96
+    },
+    {
+      "description": "Frame additional interior partition",
+      "quantity": 117.0,
+      "unit": "LF",
+      "unit_price": 42.78,
+      "amount": 5005.26
+    },
+    {
+      "description": "Crane rental",
+      "quantity": 4.0,
+      "unit": "DAY",
+      "unit_price": 1433.66,
+      "amount": 5734.64
+    },
+    {
+      "description": "Credit: eliminate planned landscaping",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 2201.42,
+      "amount": -2201.42
+    }
+  ],
+  "subtotal": 14321.94,
+  "markup_percent": null,
+  "markup_amount": null,
+  "total": 14321.94,
+  "currency": "USD",
+  "schedule_impact_days": 10,
+  "original_contract_sum": 5261500.0,
+  "new_contract_sum": 5275821.94,
+  "status": "Approved",
+  "signed": null
+}

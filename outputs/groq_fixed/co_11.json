@@ -1,0 +1,294 @@
+{
+  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_11_email_credit.txt",
+  "model": "groq:openai/gpt-oss-120b",
+  "passes": 2,
+  "fields": {
+    "co_number": {
+      "value": "046",
+      "confidence": 1.0,
+      "evidence": "Change order 046",
+      "flags": []
+    },
+    "co_date": {
+      "value": "2025-05-14",
+      "confidence": 1.0,
+      "evidence": "Date: May 14, 2025, 9:37 AM",
+      "flags": []
+    },
+    "project_name": {
+      "value": "Summit Peak Brewery Buildout",
+      "confidence": 1.0,
+      "evidence": "Summit Peak Brewery Buildout",
+      "flags": []
+    },
+    "owner": {
+      "value": "Northgate Logistics Inc.",
+      "confidence": 1.0,
+      "evidence": "owner: Northgate Logistics Inc.",
+      "flags": []
+    },
+    "contractor": {
+      "value": "Redwood General Contractors",
+      "confidence": 1.0,
+      "evidence": "Tom Bellamy <tombellamy@redwoodgeneralcontractors.example>",
+      "flags": []
+    },
+    "reason": {
+      "value": "Value engineering",
+      "confidence": 1.0,
+      "evidence": "Reason: Value engineering",
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 0.425,
+      "evidence": null,
+      "flags": [
+        "possible_missed_field"
+      ]
+    },
+    "subtotal": {
+      "value": 14321.94,
+      "confidence": 1.0,
+      "evidence": "Subtotal: $14,321.94",
+      "flags": []
+    },
+    "markup_percent": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "markup_amount": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    },
+    "total": {
+      "value": 14321.94,
+      "confidence": 1.0,
+      "evidence": "Total change: $14,321.94",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "evidence": "$",
+      "flags": []
+    },
+    "schedule_impact_days": {
+      "value": 10,
+      "confidence": 1.0,
+      "evidence": "Schedule impact: 10 calendar days.",
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": 5261500.0,
+      "confidence": 1.0,
+      "evidence": "Contract sum moves from $5,261,500.00",
+      "flags": []
+    },
+    "new_contract_sum": {
+      "value": 5275821.94,
+      "confidence": 1.0,
+      "evidence": "to $5,275,821.94",
+      "flags": []
+    },
+    "status": {
+      "value": "Approved - need your sign-off to proceed.",
+      "confidence": 1.0,
+      "evidence": "Status: Approved - need your sign-off to proceed.",
+      "flags": []
+    },
+    "signed": {
+      "value": null,
+      "confidence": 0.85,
+      "evidence": null,
+      "flags": []
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Excavation for unforeseen rock",
+        "confidence": 1.0,
+        "evidence": "Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50",
+        "flags": []
+      },
+      "quantity": {
+        "value": 45.0,
+        "confidence": 1.0,
+        "evidence": "Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50",
+        "flags": []
+      },
+      "unit": {
+        "value": "CY",
+        "confidence": 1.0,
+        "evidence": "Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 72.7,
+        "confidence": 1.0,
+        "evidence": "Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50",
+        "flags": []
+      },
+      "amount": {
+        "value": 3271.5,
+        "confidence": 1.0,
+        "evidence": "Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50",
+        "flags": []
+      },
+      "evidence": "Excavation for unforeseen rock: 45 CY @ $72.70 = $3,271.50",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Drywall patch and finish",
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish: 363 SF @ $6.92 = $2,511.96",
+        "flags": []
+      },
+      "quantity": {
+        "value": 363.0,
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish: 363 SF @ $6.92 = $2,511.96",
+        "flags": []
+      },
+      "unit": {
+        "value": "SF",
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish: 363 SF @ $6.92 = $2,511.96",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 6.92,
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish: 363 SF @ $6.92 = $2,511.96",
+        "flags": []
+      },
+      "amount": {
+        "value": 2511.96,
+        "confidence": 1.0,
+        "evidence": "Drywall patch and finish: 363 SF @ $6.92 = $2,511.96",
+        "flags": []
+      },
+      "evidence": "Drywall patch and finish: 363 SF @ $6.92 = $2,511.96",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Frame additional interior partition",
+        "confidence": 1.0,
+        "evidence": "Frame additional interior partition: 117 LF @ $42.78 = $5,005.26",
+        "flags": []
+      },
+      "quantity": {
+        "value": 117.0,
+        "confidence": 1.0,
+        "evidence": "Frame additional interior partition: 117 LF @ $42.78 = $5,005.26",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "evidence": "Frame additional interior partition: 117 LF @ $42.78 = $5,005.26",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 42.78,
+        "confidence": 1.0,
+        "evidence": "Frame additional interior partition: 117 LF @ $42.78 = $5,005.26",
+        "flags": []
+      },
+      "amount": {
+        "value": 5005.26,
+        "confidence": 1.0,
+        "evidence": "Frame additional interior partition: 117 LF @ $42.78 = $5,005.26",
+        "flags": []
+      },
+      "evidence": "Frame additional interior partition: 117 LF @ $42.78 = $5,005.26",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Crane rental",
+        "confidence": 1.0,
+        "evidence": "Crane rental: 4 DAY @ $1,433.66 = $5,734.64",
+        "flags": []
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 1.0,
+        "evidence": "Crane rental: 4 DAY @ $1,433.66 = $5,734.64",
+        "flags": []
+      },
+      "unit": {
+        "value": "DAY",
+        "confidence": 1.0,
+        "evidence": "Crane rental: 4 DAY @ $1,433.66 = $5,734.64",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 1433.66,
+        "confidence": 1.0,
+        "evidence": "Crane rental: 4 DAY @ $1,433.66 = $5,734.64",
+        "flags": []
+      },
+      "amount": {
+        "value": 5734.64,
+        "confidence": 1.0,
+        "evidence": "Crane rental: 4 DAY @ $1,433.66 = $5,734.64",
+        "flags": []
+      },
+      "evidence": "Crane rental: 4 DAY @ $1,433.66 = $5,734.64",
+      "confidence": 1.0
+    },
+    {
+      "description": {
+        "value": "Credit: eliminate planned landscaping",
+        "confidence": 1.0,
+        "evidence": "Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42",
+        "flags": []
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 1.0,
+        "evidence": "Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42",
+        "flags": []
+      },
+      "unit": {
+        "value": "LS",
+        "confidence": 1.0,
+        "evidence": "Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42",
+        "flags": []
+      },
+      "unit_price": {
+        "value": 2201.42,
+        "confidence": 1.0,
+        "evidence": "Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42",
+        "flags": []
+      },
+      "amount": {
+        "value": -2201.42,
+        "confidence": 1.0,
+        "evidence": "Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42",
+        "flags": []
+      },
+      "evidence": "Credit: eliminate planned landscaping: 1 LS @ $2,201.42 = -$2,201.42",
+      "confidence": 1.0
+    }
+  ],
+  "issues": [],
+  "needs_review": true,
+  "review_reasons": [
+    "description (0.425): possible_missed_field"
+  ],
+  "ingest": {
+    "used_ocr": false,
+    "mean_ocr_conf": null,
+    "warnings": []
+  },
+  "notes": []
+}

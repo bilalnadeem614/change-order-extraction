@@ -1,0 +1,49 @@
+{
+  "co_number": "PCO-43",
+  "co_date": "2025-05-23",
+  "project_name": "Northgate Distribution Center",
+  "owner": "Lakeshore Township",
+  "contractor": "Redwood General Contractors",
+  "reason": "Value engineering",
+  "description": "The parties agreed to the following value-engineering changes. Work covers upgrade light fixtures to LED and sprinkler head relocation.",
+  "line_items": [
+    {
+      "description": "Upgrade light fixtures to LED",
+      "quantity": 76.0,
+      "unit": "EA",
+      "unit_price": 159.39,
+      "amount": 12113.64
+    },
+    {
+      "description": "Sprinkler head relocation",
+      "quantity": 31.0,
+      "unit": "EA",
+      "unit_price": 177.83,
+      "amount": 5512.73
+    },
+    {
+      "description": "Interior paint, two coats",
+      "quantity": 2279.0,
+      "unit": "SF",
+      "unit_price": 2.65,
+      "amount": 6039.35
+    },
+    {
+      "description": "Relocate 20A electrical circuits",
+      "quantity": 8.0,
+      "unit": "EA",
+      "unit_price": 285.15,
+      "amount": 2281.2
+    }
+  ],
+  "subtotal": 25946.92,
+  "markup_percent": 15.0,
+  "markup_amount": 3892.04,
+  "total": 29838.96,
+  "currency": "USD",
+  "schedule_impact_days": 7,
+  "original_contract_sum": 5892500.0,
+  "new_contract_sum": 5922338.96,
+  "status": "Approved",
+  "signed": null
+}
