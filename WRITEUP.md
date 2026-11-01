@@ -67,8 +67,8 @@ printed in its document.
 | scans (4 docs) | 143 | 45% (the two poor scans: 9%) |
 | all | 933 | 91% |
 
-All 12 fully-correct documents are text-layer documents; no scan is fully correct. Roughly 78 of the 85 wrong cells are on the four scans
-(derived from the rounded tag percentages). The per-tag rows are confounded by this: "credit 74%" and "ambiguous date 46%" are driven by the
+All 12 fully-correct documents are text-layer documents; no scan is fully correct. 78 of the 85 wrong cells are on the four scans
+(co_20: 45, co_15: 22, co_14: 7, co_16: 4); the other 7 are on text documents. The per-tag rows are confounded by this: "credit 74%" and "ambiguous date 46%" are driven by the
 two scans that carry those tags, not by credits or dates being hard.
 
 **Does the score separate right from wrong?**

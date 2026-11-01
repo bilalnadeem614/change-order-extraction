@@ -1,5 +1,7 @@
 # Change-order extraction pipeline
 
+Approach, results and failure modes: see WRITEUP.md
+
 Turns messy change-order documents (text PDFs, scanned PDFs, emails) into validated JSON.
 Every field comes back with a value, a **confidence score**, the **evidence quote** it was read
 from, and flags explaining any penalty. Documents that need a human look are marked `needs_review`.
@@ -54,11 +56,12 @@ python -m co_extract.cli data/raw/co_01_clean_form.pdf --provider groq
 
 **The whole 20-document test set, then the evaluation report:**
 ```bash
-python scripts/run_dataset.py --provider groq --run groq_first
-python scripts/evaluate.py  --run groq_first
+python scripts/run_dataset.py --provider groq --run my_run
+python scripts/evaluate.py  --run my_run
 ```
-The report is saved to `outputs/groq_first/report.md` (accuracy per field and per difficulty tag,
+The report is saved to `outputs/my_run/report.md` (accuracy per field and per difficulty tag,
 a calibration table, and the "silent errors": wrong fields that still scored high).
+The reference run is `outputs/groq_v3`; the numbers in WRITEUP.md come from it.
 
 **Your own file:** `python -m co_extract.cli path/to/anything.pdf --provider groq --out result.json`
 
@@ -86,7 +89,9 @@ the wiring and the confidence behaviour, **not** model accuracy. Accuracy only c
 - **Rate limit / 429 / 413:** Groq's free tier caps tokens per minute. Use `--passes 1`, a smaller
   `--ids` batch, or wait a minute. The three multi-page documents (co_07, co_08, co_09) are the largest.
 - **"tool_use_failed" / "malformed tool calls":** the model produced a broken tool call. The client
-  retries 3 times; if it persists, switch `--model`.
+  retries 3 times; if it persists, switch `--model`. This is a known failure on the largest document:
+  co_08 (40 line items) fails with malformed tool-call JSON (it failed in `groq_fixed` and `groq_v3`), so `groq_v3` scores 19/20.
+  Not fixed; see WRITEUP.md, failure 4.
 - **"output truncated":** a long document needs more output tokens; raise `max_tokens` in `co_extract/llm.py`.
 - **"tesseract is not installed" / poppler errors:** only the scans need them (see Setup).
 - Failed documents are recorded as `outputs/<run>/<id>.error.txt`; the run continues.
@@ -94,11 +99,21 @@ the wiring and the confidence behaviour, **not** model accuracy. Accuracy only c
 ## Layout
 ```
 co_extract/   schema, ingest, llm (providers), extract (prompt), grounding, validate, confidence, pipeline, cli
-scripts/      generate_data (synthetic test set), verify_dataset, run_dataset, evaluate, ocr_ablation, sim_client
+scripts/      generate_data (synthetic test set), verify_dataset, run_dataset, evaluate, ocr_ablation, sim_client,
+              rescore (rebuild a run from cached raw model answers, no API calls)
 data/         raw/ (20 test documents), gold/ (answer keys), manifest.json (difficulty tags)
 tests/        plumbing + behaviour tests
 notes/        writeup_notes.md - findings and failure modes collected while building
+WRITEUP.md    approach, results and failure modes (the final write-up)
+outputs/      one folder per run (see Outputs)
 ```
+
+## Outputs
+- `outputs/groq_v3` is the final run (19/20 documents; co_08 failed). WRITEUP.md reports this one.
+- `outputs/groq_first` and `outputs/groq_fixed` are earlier runs, kept for the three-run comparison in WRITEUP.md.
+- `outputs/groq_v3/raw/` holds the cached model answers that `scripts/rescore.py` replays
+  (`python scripts/rescore.py --run groq_v3 --out <new_name>`). Rescoring writes absolute `source` paths again.
+- Each run folder has `report.md` and `errors.md` (every wrong cell), written by `scripts/evaluate.py`.
 
 ## About the test data
 Sledge supplied no sample documents, so the 20 test documents are synthetic (`scripts/generate_data.py`,

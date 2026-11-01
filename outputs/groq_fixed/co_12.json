@@ -1,5 +1,5 @@
 {
-  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_12_email_thread.txt",
+  "source": "data/raw/co_12_email_thread.txt",
   "model": "groq:openai/gpt-oss-120b",
   "passes": 2,
   "fields": {

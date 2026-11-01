@@ -1,3 +1,5 @@
+Working notes from the build. WRITEUP.md is the final write-up and supersedes these where they differ.
+
 # Running notes for the write-up
 
 Findings and failure modes as they are discovered, so the final write-up reports
@@ -97,3 +99,14 @@ measurements instead of guesses.
 - No API key was available in the build sandbox, so live extraction was not run there.
   Anthropic does not return token logprobs, so the confidence score cannot use them with that
   provider; it uses evidence grounding, validation and two-pass agreement instead.
+
+## Later runs
+Figures from WRITEUP.md and `outputs/*/report.md`.
+- `groq_first`: 20/20 documents, 89% of 1160 cells correct, 60 silent errors.
+- `groq_fixed`: after the ingest fix for wrapped cells (table structure, re-attached fragments, `may_be_truncated`
+  penalty) and a prompt change for free-text fields. 19/20 documents (co_08 failed with malformed tool-call JSON),
+  90% of 943 cells, silent errors 60 -> 22. Mixed-state run: 4 documents were reused from an earlier run, and the
+  prompt change was not tested in isolation, so it is not a pure code comparison.
+- `groq_v3`: final run. 19/20 documents, 91% of 933 cells, silent errors 22 -> 1 (co_19 `description`, a dropped
+  first sentence). co_08 is excluded from every number because the model emits invalid JSON in the tool-call
+  arguments around items 35-40; retries at temperature 0 reproduce it. Not fixed (WRITEUP.md, failure 4).

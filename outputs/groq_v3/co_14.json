@@ -1,5 +1,5 @@
 {
-  "source": "/home/bilalnadeem614/Downloads/change-order-extraction/data/raw/co_14_scan_good.pdf",
+  "source": "data/raw/co_14_scan_good.pdf",
   "model": "groq:openai/gpt-oss-120b",
   "passes": 2,
   "fields": {
